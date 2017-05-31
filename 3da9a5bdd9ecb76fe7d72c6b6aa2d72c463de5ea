@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e5a6f56a_6763aeca",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "DALi still is written in C++. You could instead say:\n\nNUI is a C# toolkit on top of the DALi graphics library which is written in C++.",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eefccba5_71cf7446",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "remove Games for now",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "de89d5d3_2ee27d2a",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "remove Maps",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8717e290_30e1c6e8",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "Provides a UI consisting of hierarchical scene graph nodes.",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "635ae2f1_c52aef0e",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "layouting",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d3c5193d_38bec53a",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "App developers never see Nodes so not good to talk of them as key concept. Could remove this and add to Views that they can display contents such as Color shapes, Images, Text, etc",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6687c96_05bf7360",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "not in image, just \"Layers provide a mechanism for overlaying groups of views on top of each other.\"",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6ee12c3_87b6b49a",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "example code seems to mix tabs and spaces... should just use one or the other consistently",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "67fff2e1_310b367c",
+        "filename": "NUItutorials/image-view.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "should we mention that the URL can be local file or a HTTP Url as well..?",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5135ea8d_f9b8a570",
+        "filename": "NUItutorials/image-view.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "you can just set the Url to another value, not sure what the benefit of the method would be (actually I thought the method is removed from C# anywaus as we prefer to use properties",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "85d73f2f_def9345c",
+        "filename": "NUItutorials/image-view.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "whole example code is missing...",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6aafdbbc_1083c86b",
+        "filename": "NUItutorials/text-label.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 1011348
+      },
+      "writtenOn": "2017-05-31T16:05:44Z",
+      "side": 1,
+      "message": "this is often referred to as Text Marquee or Marquee Scrolling... if we use Auto should it not be Automatic?",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
