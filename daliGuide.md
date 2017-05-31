@@ -1,1 +1,1 @@
-# Dali Guide
+# DALi Guide
