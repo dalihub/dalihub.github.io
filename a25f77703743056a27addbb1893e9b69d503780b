@@ -16,6 +16,80 @@
       "revId": "a25f77703743056a27addbb1893e9b69d503780b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "94ee7080_05e2e589",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-06T16:16:59Z",
+      "side": 1,
+      "message": "dpkg -i \n\n(lower case i)",
+      "range": {
+        "startLine": 20,
+        "startChar": 9,
+        "endLine": 20,
+        "endChar": 10
+      },
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "667f3218_7d557efe",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-06T16:16:59Z",
+      "side": 1,
+      "message": "Actually we needed to set the proxy in Ubuntu system settings",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "54940f85_0f3d1552",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-06T16:16:59Z",
+      "side": 1,
+      "message": "Install from inside Visual Studio Code",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ffbcc87_55a4889f",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-06T16:16:59Z",
+      "side": 1,
+      "message": "This step looks like it should be in a different section",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
