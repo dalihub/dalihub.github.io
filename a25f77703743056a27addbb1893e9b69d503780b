@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2778f26e_70c334ff",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-06T12:33:35Z",
+      "side": 1,
+      "message": "What version of Ubuntu should be (cleanly) installed?",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
