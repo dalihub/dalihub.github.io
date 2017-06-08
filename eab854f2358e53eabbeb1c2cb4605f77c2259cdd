@@ -1,0 +1,326 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5c874e4d_a5d3035e",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Didn\u0027t notice this first time round, but I think it would be better to have more meaningful names than just numbers for the section so it\u0027ll be easier to understand the reference in line 14 etc.",
+      "range": {
+        "startLine": 23,
+        "startChar": 9,
+        "endLine": 23,
+        "endChar": 10
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a9fc6ccb_3084ab77",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "I think this is code.",
+      "range": {
+        "startLine": 24,
+        "startChar": 48,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "05d83f9b_76ac4017",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Do I have to do both commands? What\u0027s the difference?",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 17
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9018733c_338d0590",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "This is all coming up in one line on the website which I\u0027m guessing wasn\u0027t your intention.",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 112
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aaaefb7f_cf160aea",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Use VSC rather than introducing a new VS acronym.",
+      "range": {
+        "startLine": 57,
+        "startChar": 52,
+        "endLine": 57,
+        "endChar": 59
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "35946e73_8bf32a76",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "gerrit.\n\nProbably worth mentioning in brackets that to do this, the user has to sign up to tizen.org as well.",
+      "range": {
+        "startLine": 81,
+        "startChar": 16,
+        "endLine": 81,
+        "endChar": 19
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "af36e14a_ce92c911",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Actually, did you mean .git file here?  There\u0027s a .git FOLDER but that should be in ALL of the git repos.  A .git folder is what makes this into a git repo.  Could you check this again and confirm that is really the case.",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 92
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bcf77921_2717685d",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "devel/master\n\nThe slash is VERY important",
+      "range": {
+        "startLine": 92,
+        "startChar": 17,
+        "endLine": 92,
+        "endChar": 29
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "34786828_d9a61d9d",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "I don\u0027t think this line is required as above you say that we should \"switch to the devel/master branch for each required repo.\"",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 65
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "24683157_8739c2c0",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Change this to bullets.",
+      "range": {
+        "startLine": 143,
+        "startChar": 4,
+        "endLine": 143,
+        "endChar": 6
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "90e828c7_d389f08e",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Change to bullets and this is STILL appearing as a code snippet.",
+      "range": {
+        "startLine": 155,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 11
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b1a07853_3dd7f8df",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Again, I would suggest using bullets.",
+      "range": {
+        "startLine": 166,
+        "startChar": 4,
+        "endLine": 166,
+        "endChar": 6
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aef10c84_139ce154",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Still appearing as code snippets and change to bullets.",
+      "range": {
+        "startLine": 170,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 80
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fcb565ac_24098767",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T09:45:20Z",
+      "side": 1,
+      "message": "Appearing as code snippets and change to bullets. The same with line 176.",
+      "range": {
+        "startLine": 183,
+        "startChar": 0,
+        "endLine": 184,
+        "endChar": 135
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
