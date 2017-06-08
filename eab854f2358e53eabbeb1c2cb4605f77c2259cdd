@@ -187,6 +187,29 @@
     },
     {
       "key": {
+        "uuid": "22235e8c_45e036b7",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-08T19:01:29Z",
+      "side": 1,
+      "message": "From github",
+      "range": {
+        "startLine": 81,
+        "startChar": 16,
+        "endLine": 81,
+        "endChar": 51
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f9df193_26896d4e",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 3
