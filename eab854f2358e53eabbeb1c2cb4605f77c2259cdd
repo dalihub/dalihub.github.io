@@ -487,6 +487,29 @@
       "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e1f22d75_6f5aec6d",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T15:16:33Z",
+      "side": 1,
+      "message": "I think we could have done this more easily on the command-line like this:\n\ncp ../nui/NUISamples/NUISamples/NUISamples.TizenTV/examples/hello-world.cs ./\n\n\nThe powerpoint I received is easier to follow i.e. it does the copy first, then the \"dotnet new console\"",
+      "range": {
+        "startLine": 221,
+        "startChar": 18,
+        "endLine": 221,
+        "endChar": 22
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
