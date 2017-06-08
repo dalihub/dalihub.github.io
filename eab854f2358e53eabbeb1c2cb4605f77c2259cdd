@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "3c631983_c30a6c41",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T12:40:05Z",
+      "side": 1,
+      "message": "There is no \"Ubuntu\", which version are we recommending?",
+      "range": {
+        "startLine": 1,
+        "startChar": 15,
+        "endLine": 1,
+        "endChar": 16
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5c874e4d_a5d3035e",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 3
@@ -140,6 +163,30 @@
     },
     {
       "key": {
+        "uuid": "5a3e97da_ef896a11",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T12:40:05Z",
+      "side": 1,
+      "message": "+ the ssh public key needs to be uploaded",
+      "parentUuid": "35946e73_8bf32a76",
+      "range": {
+        "startLine": 81,
+        "startChar": 16,
+        "endLine": 81,
+        "endChar": 19
+      },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "af36e14a_ce92c911",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 3
@@ -186,6 +233,23 @@
     },
     {
       "key": {
+        "uuid": "51794eb4_14901ff4",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T12:40:05Z",
+      "side": 1,
+      "message": "The git pull is a NOOP if we\u0027ve just cloned the repo",
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "34786828_d9a61d9d",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 3
@@ -203,6 +267,23 @@
         "endLine": 100,
         "endChar": 65
       },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "07cfd18a_45f2c9f6",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T12:40:05Z",
+      "side": 1,
+      "message": "Why are we mentioning this? Surely we don\u0027t want to clean the build at this stage...",
       "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -272,6 +353,57 @@
         "endLine": 166,
         "endChar": 6
       },
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ea10ca9a_fbf37e9b",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T12:40:05Z",
+      "side": 1,
+      "message": "git checkout devel/master\n(not previously mentioned for this repo)",
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6fdbce3_dc77da63",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T12:40:05Z",
+      "side": 1,
+      "message": "I assume this means to edit this file:\n\n./dali-csharp-binder/file.list\n\ni.e it\u0027s not in the root dali-csharp-binder folder",
+      "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bb5a2922_e038b4dd",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2017-06-08T12:40:05Z",
+      "side": 1,
+      "message": "The README is full of **** like this:\n\ncd dali-toolkit/build/tizen\n\n(copy paste error)",
       "revId": "eab854f2358e53eabbeb1c2cb4605f77c2259cdd",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
