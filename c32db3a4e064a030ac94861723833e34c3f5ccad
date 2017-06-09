@@ -240,6 +240,29 @@
       "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0a986c58_3e505a04",
+        "filename": "NUItutorials/text-label.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:51:44Z",
+      "side": 1,
+      "message": "This image shows a TextLabel with ParentOrigin.TopLeft:",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 35
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
