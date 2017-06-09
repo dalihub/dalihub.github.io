@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "16943d46_d05f8aba",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "97c8163f_da454678",
+      "range": {
+        "startLine": 37,
+        "startChar": 23,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9016e6ab_610f5cae",
         "filename": "NUItutorials/NUIoverview.md",
         "patchSetId": 4
@@ -36,6 +60,30 @@
       "writtenOn": "2017-06-09T12:07:41Z",
       "side": 1,
       "message": "An?",
+      "range": {
+        "startLine": 41,
+        "startChar": 13,
+        "endLine": 41,
+        "endChar": 14
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8599d38c_2cc01c3a",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9016e6ab_610f5cae",
       "range": {
         "startLine": 41,
         "startChar": 13,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "ea8dac13_95f16092",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1274c19f_a1fae8aa",
+      "range": {
+        "startLine": 6,
+        "startChar": 35,
+        "endLine": 6,
+        "endChar": 71
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "94915964_bc220561",
         "filename": "NUItutorials/hello-world.md",
         "patchSetId": 4
@@ -88,6 +160,24 @@
     },
     {
       "key": {
+        "uuid": "a6583079_2554009e",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94915964_bc220561",
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "edcfcdfa_1544d267",
         "filename": "NUItutorials/hello-world.md",
         "patchSetId": 4
@@ -99,6 +189,30 @@
       "writtenOn": "2017-06-09T12:19:08Z",
       "side": 1,
       "message": "This method does not exist in NUIApplication.cs.\n\nI\u0027m wondering why you\u0027re mentioning it here anyway.",
+      "range": {
+        "startLine": 68,
+        "startChar": 17,
+        "endLine": 68,
+        "endChar": 27
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "90aba7e3_9a2c653b",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "edcfcdfa_1544d267",
       "range": {
         "startLine": 68,
         "startChar": 17,
@@ -134,6 +248,30 @@
     },
     {
       "key": {
+        "uuid": "f3ab192a_64001e0e",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33820917_f83f8d80",
+      "range": {
+        "startLine": 88,
+        "startChar": 14,
+        "endLine": 88,
+        "endChar": 37
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0667a19e_d9ba38ca",
         "filename": "NUItutorials/hello-world.md",
         "patchSetId": 4
@@ -157,6 +295,30 @@
     },
     {
       "key": {
+        "uuid": "3faa245b_0f27b4a3",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0667a19e_d9ba38ca",
+      "range": {
+        "startLine": 138,
+        "startChar": 103,
+        "endLine": 138,
+        "endChar": 104
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "86d3cb4b_fe2bb2f2",
         "filename": "NUItutorials/hello-world.md",
         "patchSetId": 4
@@ -168,6 +330,30 @@
       "writtenOn": "2017-06-09T12:19:08Z",
       "side": 1,
       "message": "the window (will add the view to the root layer).",
+      "range": {
+        "startLine": 140,
+        "startChar": 18,
+        "endLine": 140,
+        "endChar": 31
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c013b1ac_cd63ec68",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "86d3cb4b_fe2bb2f2",
       "range": {
         "startLine": 140,
         "startChar": 18,
@@ -243,6 +429,30 @@
     },
     {
       "key": {
+        "uuid": "86bb37b8_80468fd7",
+        "filename": "NUItutorials/image-view.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done\n\nHave tided up layout, improved description of co-ords to make sense\n\nYes will add an image",
+      "parentUuid": "b4c3b2b4_0c6def6d",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 93
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0a986c58_3e505a04",
         "filename": "NUItutorials/text-label.md",
         "patchSetId": 4
@@ -254,6 +464,30 @@
       "writtenOn": "2017-06-09T12:51:44Z",
       "side": 1,
       "message": "This image shows a TextLabel with ParentOrigin.TopLeft:",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 35
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e7625c28_158f92f8",
+        "filename": "NUItutorials/text-label.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a986c58_3e505a04",
       "range": {
         "startLine": 36,
         "startChar": 0,
