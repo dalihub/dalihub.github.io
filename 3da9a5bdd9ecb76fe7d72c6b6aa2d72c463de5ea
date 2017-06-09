@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "f40e6a7e_f9d6843a",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e5a6f56a_6763aeca",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eefccba5_71cf7446",
         "filename": "NUItutorials/NUIoverview.md",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2017-05-31T16:05:44Z",
       "side": 1,
       "message": "remove Games for now",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cdcb9e0c_0a3d8e1e",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eefccba5_71cf7446",
       "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "453a73a0_173b6150",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "de89d5d3_2ee27d2a",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8717e290_30e1c6e8",
         "filename": "NUItutorials/NUIoverview.md",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2017-05-31T16:05:44Z",
       "side": 1,
       "message": "Provides a UI consisting of hierarchical scene graph nodes.",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4dade7e6_5d072a9a",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8717e290_30e1c6e8",
       "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "5e92b63b_075bd37f",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "635ae2f1_c52aef0e",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d3c5193d_38bec53a",
         "filename": "NUItutorials/NUIoverview.md",
         "patchSetId": 3
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "adf0ea25_50c72b7b",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d3c5193d_38bec53a",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a6687c96_05bf7360",
         "filename": "NUItutorials/NUIoverview.md",
         "patchSetId": 3
@@ -115,6 +223,24 @@
       "writtenOn": "2017-05-31T16:05:44Z",
       "side": 1,
       "message": "not in image, just \"Layers provide a mechanism for overlaying groups of views on top of each other.\"",
+      "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8325f66e_3f7c56a5",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-09T15:27:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a6687c96_05bf7360",
       "revId": "3da9a5bdd9ecb76fe7d72c6b6aa2d72c463de5ea",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
