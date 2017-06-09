@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "97c8163f_da454678",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:07:41Z",
+      "side": 1,
+      "message": "As per the Kimmo\u0027s comment about nodes for the previous patchset, you should not mention nodes here!  Just say something about used for displaying tree of Layers and Views.",
+      "range": {
+        "startLine": 37,
+        "startChar": 23,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9016e6ab_610f5cae",
+        "filename": "NUItutorials/NUIoverview.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:07:41Z",
+      "side": 1,
+      "message": "An?",
+      "range": {
+        "startLine": 41,
+        "startChar": 13,
+        "endLine": 41,
+        "endChar": 14
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1274c19f_a1fae8aa",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:07:41Z",
+      "side": 1,
+      "message": "It doesn\u0027t really describe NUI in detail, it just gives an overview of NUI. I\u0027ll let you come up with the words along those lines :)",
+      "range": {
+        "startLine": 6,
+        "startChar": 35,
+        "endLine": 6,
+        "endChar": 71
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "94915964_bc220561",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:07:41Z",
+      "side": 1,
+      "message": "also",
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
