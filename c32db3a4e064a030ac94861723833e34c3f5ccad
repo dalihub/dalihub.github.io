@@ -85,6 +85,121 @@
       "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "edcfcdfa_1544d267",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:19:08Z",
+      "side": 1,
+      "message": "This method does not exist in NUIApplication.cs.\n\nI\u0027m wondering why you\u0027re mentioning it here anyway.",
+      "range": {
+        "startLine": 68,
+        "startChar": 17,
+        "endLine": 68,
+        "endChar": 27
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "33820917_f83f8d80",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:19:08Z",
+      "side": 1,
+      "message": "is called when the application is about to terminate.\n\nNot sure why we\u0027re mentioning termination before initialization especially as we don\u0027t even terminate the app in the example anymore.",
+      "range": {
+        "startLine": 88,
+        "startChar": 14,
+        "endLine": 88,
+        "endChar": 37
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0667a19e_d9ba38ca",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:19:08Z",
+      "side": 1,
+      "message": "Is it worth adding a link?",
+      "range": {
+        "startLine": 138,
+        "startChar": 103,
+        "endLine": 138,
+        "endChar": 104
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "86d3cb4b_fe2bb2f2",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:19:08Z",
+      "side": 1,
+      "message": "the window (will add the view to the root layer).",
+      "range": {
+        "startLine": 140,
+        "startChar": 18,
+        "endLine": 140,
+        "endChar": 31
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "645a37cb_a06ce780",
+        "filename": "NUItutorials/hello-world.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:19:08Z",
+      "side": 1,
+      "message": "This image is still missing the black border.",
+      "range": {
+        "startLine": 227,
+        "startChar": 0,
+        "endLine": 227,
+        "endChar": 69
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
