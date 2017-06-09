@@ -200,6 +200,46 @@
       "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b908705c_ec131174",
+        "filename": "NUItutorials/image-view.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:31:02Z",
+      "side": 1,
+      "message": "This tutorial is missing Images!!!",
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b4c3b2b4_0c6def6d",
+        "filename": "NUItutorials/image-view.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-06-09T12:31:02Z",
+      "side": 1,
+      "message": "This is appearing as a code snippet.\n\nActually, the explanation doesn\u0027t really make much sense.  A diagram would explain this a lot better!",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 93
+      },
+      "revId": "c32db3a4e064a030ac94861723833e34c3f5ccad",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
