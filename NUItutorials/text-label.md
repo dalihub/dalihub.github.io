@@ -81,8 +81,8 @@ Alternatively you can request a font using either or all, of _FontFamily_, _Font
 label.FontFamily = "FreeSerif";
 
 PropertyMap fontStyle = new PropertyMap();
-fontStyle.Add( "weight", "bold" );
-fontStyle.Add( "slant", "italic" );
+fontStyle.Add( "weight", new PropertyValue("bold") );
+fontStyle.Add( "slant", new PropertyValue("italic") );
 label.FontStyle = fontStyle;
 label.PointSize = 12.0f;
 
@@ -185,7 +185,7 @@ Note that unlike the View COLOR property, this will not affect child Actors adde
 
 ~~~{.cs}
 label.Text = "Red Text";
-label.TextColor = Color.RED;
+label.TextColor = Color.Red;
 ~~~
 
  ![ ](./Images/RedText.png)
@@ -196,18 +196,27 @@ To add a drop-shadow to the text, simply set the _Shadow_ property. Shadow param
 as demonstrated below.
 
 ~~~{.cs}
-window.BackgroundColor( Color.BLUE );
+window.BackgroundColor( Color.Blue );
 
 label1.Text = "Plain Text";
 
 label2.Text = "Text with Shadow";
-label2.Shadow = "{\"offset\":\"1 1\",\"color\":\"black\"}" );
+PropertyMap shadow = new PropertyMap();
+shadow.Add("offset", new PropertyValue("1 1"));
+shadow.Add("color", new PropertyValue("black"));
+pixelLabel.Shadow = shadow;
 
 label3.Text = "Text with Bigger Shadow";
-label3.Shadow = "{\"offset\":\"2 2\",\"color\":\"black\"}" );
+PropertyMap shadow = new PropertyMap();
+shadow.Add("offset", new PropertyValue("2 2"));
+shadow.Add("color", new PropertyValue("black"));
+label3.Shadow = shadow;
 
 label4.Text = "Text with Color Shadow" );
-label4.Shadow = "{\"offset\":\"1 1\",\"color\":\"red\"}" );
+PropertyMap shadow = new PropertyMap();
+shadow.Add("offset", new PropertyValue("1 1"));
+shadow.Add("color", new PropertyValue("red"));
+label4.Shadow = shadow;
 ~~~
 
 ![ ](./Images/PlainText.png)
@@ -229,7 +238,7 @@ Here text is underlined:
 label1.Text = "Text with Underline";
 
 PropertyMap textStyle = new PropertyMap();
-textStyle.Add(ENABLE_KEY, TRUE_TOKEN);
+textStyle.Add("enable", new PropertyValue("true"));
 label1.Underline = textStyle;
 ~~~
 
@@ -239,8 +248,8 @@ Here the underline color and height is set:
 label2.Text = "Text with Color Underline";
 
 PropertyMap textStyle = new PropertyMap();
-textStyle.Add(ENABLE_KEY, TRUE_TOKEN);
-textStyle.Add(COLOR_KEY, Color.GREEN);
+textStyle.Add("enable", new PropertyValue("true"));
+textStyle.Add("color", new PropertyValue(Color.Green));
 label2.Underline = textStyle;
 ~~~
 
@@ -252,8 +261,8 @@ By default the underline height will be taken from the font metrics, however thi
 
 ~~~{.cs}
 PropertyMap textStyle = new PropertyMap();
-textStyle.Add(ENABLE_KEY, TRUE_TOKEN);
-textStyle.Add(HEIGHT_KEY, 2.0f); // 2 pixel height
+textStyle.Add("enable", new PropertyValue("true"));
+textStyle.Add("height", new PropertyValue(2.0f)); // 2 pixel height
 label1.Underline = textStyle;
 ~~~
 
@@ -387,6 +396,11 @@ The properties available for TextLabel are:
 | HorizontalAlignment | string | The line horizontal alignment.
 | VerticalAlignment | string | The line vertical alignment.
 | TextColor | Color | The color of the text.
+| ShadowOffset | Vector2 | The shadow offset of the text.
+| ShadowColor | Vector4 | The shadow color of the text.
+| UnderlineEnabled | bool | Gets/sets whether to use underline.
+| UnderlineColor | Vector4 | Gets/sets the color of underline.
+| UnderlineHeight | float | Gets/sets the height of underline.
 | EnableMarkup | bool | Whether the mark-up processing is enabled.
 | EnableAutoScroll | bool | Starts or stops auto scrolling.
 | AutoScrollSpeed | int | Sets the speed of scrolling in pixels per second.
@@ -397,6 +411,10 @@ The properties available for TextLabel are:
 | Shadow | Map | The default shadow parameters.
 | Emboss | Map | The default emboss parameters.
 | Outline | Map | The default emboss parameters.
+| PixelSize | float | The size of font in pixels.
+| Ellipsis | bool | Gets/sets whether to enable the ellipsis.
+| AutoScrollLoopDelay | float | Gets/sets the loop delay of auto scroll.
+| AutoScrollStopMode | AutoScrollStopMode | Gets/sets the stop mode of auto scroll.
 
 All text label properties are writable.
 

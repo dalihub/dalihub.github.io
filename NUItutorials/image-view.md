@@ -18,7 +18,7 @@ or by the _Url_ property:
 
 ~~~{.cs}
 imageView = new ImageView();
-imageView.Url = "./images/gallery-3.jpg";
+imageView.ResourceUrl = "./images/gallery-3.jpg";
 ~~~
 
 To subsequently change an image use the _SetImage_ method:
@@ -26,17 +26,24 @@ To subsequently change an image use the _SetImage_ method:
 ~~~{.cs}
 imageView.SetImage("./images/gallery-4.jpg");
 ~~~
- 
+
+This figure is displayed via an ImageView:
+
+![ ](./Images/ImageView.png) 
+
 ### Image View Properties
 
 ImageView has the following properties:
 
-| Property  | Type | Description 
+| Property  | Type | Description |
 | ------------ | ------------ | ------------ |
-| Url | string  | path to image file.
-| ImageMap | Map | map of properties associated with a given image
-| PreMultipliedAlpha | bool | opacity adjusted image
-| PixelArea | Vector4 | sub area of image.
+| ResourceUrl | string  | path to image file. |
+| ImageMap | Map | map of properties associated with a given image. |
+| PreMultipliedAlpha | bool | opacity adjusted image. |
+| PixelArea | Vector4 | sub area of image. |
+| Border | Rectangle | The border of the image in the order:left, right, bottom, top. For N-Patch images only. |
+| BorderOnly | bool | Gets/sets whether to draws the borders only(If true). For N-Patch images only. |
+| SynchronosLoading | bool | Gets/Sets wheher the image is synchronos. For N-Patch images only. |
 
 Note:
 
