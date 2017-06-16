@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "d4edba13_8ae82015",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2778f26e_70c334ff",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "94ee7080_05e2e589",
         "filename": "build/build_NUI_HelloWorld_from_scratch.md",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2017-06-06T16:16:59Z",
       "side": 1,
       "message": "dpkg -i \n\n(lower case i)",
+      "range": {
+        "startLine": 20,
+        "startChar": 9,
+        "endLine": 20,
+        "endChar": 10
+      },
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ea96f696_85e4e720",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94ee7080_05e2e589",
       "range": {
         "startLine": 20,
         "startChar": 9,
@@ -59,6 +101,24 @@
     },
     {
       "key": {
+        "uuid": "f95a9bd3_00c168bd",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "667f3218_7d557efe",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "54940f85_0f3d1552",
         "filename": "build/build_NUI_HelloWorld_from_scratch.md",
         "patchSetId": 1
@@ -76,6 +136,24 @@
     },
     {
       "key": {
+        "uuid": "93360e64_325786f2",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "54940f85_0f3d1552",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1ffbcc87_55a4889f",
         "filename": "build/build_NUI_HelloWorld_from_scratch.md",
         "patchSetId": 1
@@ -87,6 +165,24 @@
       "writtenOn": "2017-06-06T16:16:59Z",
       "side": 1,
       "message": "This step looks like it should be in a different section",
+      "revId": "a25f77703743056a27addbb1893e9b69d503780b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a655ef51_c7f28163",
+        "filename": "build/build_NUI_HelloWorld_from_scratch.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ffbcc87_55a4889f",
       "revId": "a25f77703743056a27addbb1893e9b69d503780b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
