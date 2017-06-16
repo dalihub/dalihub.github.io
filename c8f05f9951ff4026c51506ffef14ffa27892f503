@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "58b55749_69a1328b",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "098fca14_68e5f59b",
+      "range": {
+        "startLine": 4,
+        "startChar": 53,
+        "endLine": 4,
+        "endChar": 56
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b720d2c4_4f5b1f88",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -71,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "1346232e_8ca441cb",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6d8d6de_ceba7669",
+      "range": {
+        "startLine": 22,
+        "startChar": 20,
+        "endLine": 22,
+        "endChar": 30
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2afc3697_73f41f5d",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -82,6 +130,30 @@
       "writtenOn": "2017-06-07T17:37:49Z",
       "side": 1,
       "message": "require",
+      "range": {
+        "startLine": 34,
+        "startChar": 15,
+        "endLine": 34,
+        "endChar": 23
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9bc68cc0_f5605146",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2afc3697_73f41f5d",
       "range": {
         "startLine": 34,
         "startChar": 15,
@@ -117,6 +189,30 @@
     },
     {
       "key": {
+        "uuid": "51c11044_86dff3eb",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fcb878c8_d4268ddc",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 3
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ad7fa25e_ab7737ec",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -128,6 +224,30 @@
       "writtenOn": "2017-06-07T17:37:49Z",
       "side": 1,
       "message": "This is only true if we launch VSC from command line that has those variable set up.",
+      "range": {
+        "startLine": 64,
+        "startChar": 2,
+        "endLine": 64,
+        "endChar": 101
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8aa0948f_07aec035",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad7fa25e_ab7737ec",
       "range": {
         "startLine": 64,
         "startChar": 2,
@@ -163,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "42dd0c4b_abf602b1",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd144c0e_32a843fa",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 108
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "92a597fd_364c8cd2",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -186,6 +330,30 @@
     },
     {
       "key": {
+        "uuid": "b4be5aa5_270c35cf",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "superseded by different review",
+      "parentUuid": "92a597fd_364c8cd2",
+      "range": {
+        "startLine": 94,
+        "startChar": 23,
+        "endLine": 94,
+        "endChar": 35
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a4c78d6f_00e9f4b8",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -197,6 +365,30 @@
       "writtenOn": "2017-06-07T17:37:49Z",
       "side": 1,
       "message": "Remove this line.",
+      "range": {
+        "startLine": 101,
+        "startChar": 0,
+        "endLine": 101,
+        "endChar": 89
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "09c53b9c_80441679",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4c78d6f_00e9f4b8",
       "range": {
         "startLine": 101,
         "startChar": 0,
@@ -255,6 +447,30 @@
     },
     {
       "key": {
+        "uuid": "152e8e58_b6469fa3",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "removed line",
+      "parentUuid": "2a74cc03_58fddc49",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 12
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0ddfb5c1_3583a9a0",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -278,6 +494,30 @@
     },
     {
       "key": {
+        "uuid": "a3a5d770_b6cae88d",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ddfb5c1_3583a9a0",
+      "range": {
+        "startLine": 155,
+        "startChar": 26,
+        "endLine": 155,
+        "endChar": 30
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c5970e1d_46932bf5",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -289,6 +529,30 @@
       "writtenOn": "2017-06-07T17:37:49Z",
       "side": 1,
       "message": "[Tizen.org Username]",
+      "range": {
+        "startLine": 159,
+        "startChar": 22,
+        "endLine": 159,
+        "endChar": 36
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1707a8dd_fbe42a53",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "superseeeded",
+      "parentUuid": "c5970e1d_46932bf5",
       "range": {
         "startLine": 159,
         "startChar": 22,
@@ -335,6 +599,30 @@
       "writtenOn": "2017-06-07T17:37:49Z",
       "side": 1,
       "message": "Remove this line as I don\u0027t think this file exists in this folder for everyone.",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 14
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "192fa4d8_f9329c13",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3e99e69_50ce6232",
       "range": {
         "startLine": 171,
         "startChar": 0,
@@ -404,6 +692,30 @@
     },
     {
       "key": {
+        "uuid": "359778ff_14f3d39b",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4bc4ae64_48777e23",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 201,
+        "endChar": 74
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1793bf16_049523f6",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -415,6 +727,30 @@
       "writtenOn": "2017-06-07T17:37:49Z",
       "side": 1,
       "message": "Not in this patch, but add a rationale for why we have to do this.",
+      "range": {
+        "startLine": 205,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 22
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "55a7a150_8921aaca",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1793bf16_049523f6",
       "range": {
         "startLine": 205,
         "startChar": 0,
@@ -444,6 +780,24 @@
     },
     {
       "key": {
+        "uuid": "f4ae025e_bd099a78",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a488ae06_a2cee469",
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "af23ec2f_ae77fd9b",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -467,6 +821,30 @@
     },
     {
       "key": {
+        "uuid": "548479c6_298b34d3",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af23ec2f_ae77fd9b",
+      "range": {
+        "startLine": 230,
+        "startChar": 0,
+        "endLine": 230,
+        "endChar": 35
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8bc9cf60_8ca0e5cc",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 2
@@ -478,6 +856,30 @@
       "writtenOn": "2017-06-07T17:37:49Z",
       "side": 1,
       "message": "Window",
+      "range": {
+        "startLine": 262,
+        "startChar": 24,
+        "endLine": 262,
+        "endChar": 35
+      },
+      "revId": "c8f05f9951ff4026c51506ffef14ffa27892f503",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4cdf8cbd_09d8d486",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8bc9cf60_8ca0e5cc",
       "range": {
         "startLine": 262,
         "startChar": 24,
