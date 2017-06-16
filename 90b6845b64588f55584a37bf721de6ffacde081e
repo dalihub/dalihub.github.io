@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "fceea513_0be9fe4e",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Reworded",
+      "parentUuid": "b4b5b8fb_c05ce4b5",
+      "range": {
+        "startLine": 34,
+        "startChar": 1,
+        "endLine": 36,
+        "endChar": 51
+      },
+      "revId": "90b6845b64588f55584a37bf721de6ffacde081e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "78cb20a5_ff69d70e",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 8
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "a061703b_1b75ce07",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Folder",
+      "parentUuid": "78cb20a5_ff69d70e",
+      "range": {
+        "startLine": 201,
+        "startChar": 26,
+        "endLine": 201,
+        "endChar": 30
+      },
+      "revId": "90b6845b64588f55584a37bf721de6ffacde081e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f28b8299_4ef31539",
         "filename": "NUItutorials/setup-ubuntu.md",
         "patchSetId": 8
@@ -59,6 +107,30 @@
       "writtenOn": "2017-06-16T15:43:55Z",
       "side": 1,
       "message": "Is this true? or does it not just restore dependencies?",
+      "range": {
+        "startLine": 224,
+        "startChar": 0,
+        "endLine": 225,
+        "endChar": 31
+      },
+      "revId": "90b6845b64588f55584a37bf721de6ffacde081e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b2deff33_070c98a4",
+        "filename": "NUItutorials/setup-ubuntu.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-06-16T16:29:05Z",
+      "side": 1,
+      "message": "Left \"Build assets\" \u0027title\u0027, but reworded what dotnet restore does",
+      "parentUuid": "f28b8299_4ef31539",
       "range": {
         "startLine": 224,
         "startChar": 0,
