@@ -31,7 +31,7 @@ This document covers:
 
 * Install latest VSC for Ubuntu
     1. [Download deb package](https://code.visualstudio.com).
-    2. Install deb package, VSC instructions are to use:
+    2. Install deb package, the VSC instructions are to use:
 ~~~{.sh}
     $ sudo dpkg -i code_1.10.2xXXXXXXXXXX_amd64.deb
 ~~~
@@ -167,7 +167,7 @@ If ok, DALi demo window will appear.
     1. Edit _file.list_ and remove the line "src/key-grab.cpp \". (_This is a tizen only dependency_). Do not leave a gap in the file.
     2. Build bindings by following the README file. (_"Building the Repository"_ section)
 
-* Copy `nui` source folder to a new sub-folder `nuirun` (_for subsequent overwriting of files_)
+* Copy the `nui` source folder to a new sub-folder `nuirun` (_for subsequent overwriting of files_)
 
 ~~~{.sh}
     $ cd ~/DALiNUI
