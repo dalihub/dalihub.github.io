@@ -1,6 +1,8 @@
 <a name="top"></a>
 # Visuals Tutorial
 
+This tutorial describes how to create, register and use visuals.
+
 In this tutorial:
 
 [Overview](#overview)<br>
@@ -228,9 +230,9 @@ Note : `_visualView` is a Custom View. See [Visual View](#visualview)
 | GradientVisualProperty | Name          | Type              | Required |                        Description |
 |------------------------|---------------|:-----------------:|:----------:|--------------------------------------------------------------------------------------|
 |                        | StartPosition | VECTOR2           | For Linear | The start position of the linear gradient.                               |
-|                        | EndPosition   | VECTOR2           | For Linear | The end position of the lineargradient.                                               |
-|                        | Center        | VECTOR2           | For Radial | The center point of thegradient.                                                       |
-|                        | Radius        | FLOAT             | For Radial | The size of theradius.                                                                 |
+|                        | EndPosition   | VECTOR2           | For Linear | The end position of the linear gradient.                                               |
+|                        | Center        | VECTOR2           | For Radial | The center point of the gradient.                                                       |
+|                        | Radius        | FLOAT             | For Radial | The size of the radius.                                                                 |
 |                        | StopOffset    | ARRAY of FLOAT    | No         | All the stop offsets. If not supplied default is 0.0 and 1.0.                           |
 |                        | StopColor     | ARRAY of VECTOR4  | Yes        | The color at those stop offsets. At least 2 required to show a gradient.                |
 |                        | Units         | INTEGER or STRING | No         | Defines the coordinate system. [More info](#gradientunits)                                          |
