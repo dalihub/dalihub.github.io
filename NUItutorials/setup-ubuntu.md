@@ -7,7 +7,7 @@ It assumes the starting point is a completely 'clean' system, though that is not
 
 VSC can be be installed on Ubuntu 14.04 and onwards.
 
-The [NUI Hello World tutorial](../NUItutorials/hello-world.md#fullcode) provides an introduction into NUI application development,
+The [NUI Hello World tutorial](hello-world.md#fullcode) provides an introduction into NUI application development,
 describing how to display text in a text label.
 
 ## Overview
@@ -163,9 +163,15 @@ If ok, DALi demo window will appear.
     $ cd dali-csharp-binder/dali-csharp-binder
 ~~~
 
-* Build NUI csharp bindings - remove dependency
+* NUI csharp bindings - remove dependency
     1. Edit _file.list_ and remove the line "src/key-grab.cpp \". (_This is a tizen only dependency_). Do not leave a gap in the file.
-    2. Build bindings by following the README file. (_"Building the Repository"_ section)
+    2.. Change directory to 'parent' binder folder
+~~~{.sh}
+    $ cd ~/DALiNUI/dali-csharp-binder
+~~~
+
+* Build NUI csharp bindings
+    1. Build bindings by following the README file. (_"Building the Repository"_ section)
 
 * Copy the `nui` source folder to a new sub-folder `nuirun` (_for subsequent overwriting of files_)
 
@@ -190,7 +196,7 @@ _Overwriting these 2 files is necessary, as NUI in Ubuntu is not fully supported
 ### Build NUI and Run the Hello World (NUI) Tutorial
 
 * Create tutorial file 
-    1. Copy code in _"full example"_ section of the [NUI Hello World tutorial](../NUItutorials/hello-world.md) to a new file, `hello-world.cs`
+    1. Copy code in _"full example"_ section of the [NUI Hello World tutorial](hello-world.md) to a new file, `hello-world.cs`
     2. Copy `hello-world.cs` to the nuirun folder:
 ~~~{.sh}
     $ cp hello-world.cs ~/DALiNUI/nuirun
