@@ -427,14 +427,25 @@ Size negotiation is implemented via a range of `ResizePolicies`, declared in the
  
 | Name                            | Description                                                                   |
 |--------------------------------------|--------------------------------------------------------------------------|
-| Fixed                     | Size is fixed as set by SetSize       |
-| UseNaturalSize            | Size is to use the actor's natural size |
+| Fixed                     | Size is fixed as set by SetSize (default)      |
+| UseNaturalSize            | Size is to use the views's natural size, e.g. The dimensions of the image, or the size of the text |
 | FillToParent              | Size is to fill up to the views's parent's bounds. Aspect ratio is not maintained. |
-| SizeRelativeToParent      | The view's size will be ( ParentSize * SizeRelativeToParentFactor ) |
-| SizeFixedOffsetFromParent | The view's size will be ( ParentSize + SizeRelativeToParentFactor ) |
-| FitToChildren             | Size will adjust to wrap around all children                      |
+| SizeRelativeToParent      | Fill up the parent with a relative scale. Use SetSizeModeFactor to specify the ratio to fill up to the parent. |
+| SizeFixedOffsetFromParent | Fill up the parent, and add a fixed offset using SetSizeModeFactor.|
+| FitToChildren             | Size will adjust to wrap around all children e.g. A popup's height may resize itself around it's contents. |
 | DimensionDependency       | One dimension is dependent on the other |
 | UseAssignedSize           | The size will be assigned to the view |
+
+
+- ResizePolicy::FIXED: This is the option to use when you want the specific definite size as set by SetSize (This is the default for all actors)
+- ResizePolicy::USE_NATURAL_SIZE: Use this option for objects such as images or text to get their natural size e.g. The dimensions of the image, or the size of the text without wrapping. Also use this on TableViews when the size of the table is dependent on its children.
+
+- ResizePolicy::FILL_TO_PARENT: Size will fill up to the size of its parent's size, taking a size factor into account to allow proportionate filling
+
+- ResizePolicy::SIZE_RELATIVE_TO_PARENT: Fill up the parent with a relative scale. Use SetSizeModeFactor to specify the ratio to fill up to the parent.
+- ResizePolicy::SIZE_FIXED_OFFSET_FROM_PARENT: Fill up the parent and add a fixed offset using SetSizeModeFactor.
+- ResizePolicy::FIT_TO_CHILDREN: Size will scale around the size of the actor's children. E.g. A popup's height may resize itself around it's contents.
+- ResizePolicy::DIMENSION_DEPENDENCY: This covers rules such as width-for-height and height-for-width. You specify that one dimension depends on another.
 
 Relayout requests are put in automatically when a property is changed on a view, or a change to the stage hierarchy is
 made and manual requests are usually not necessary. The`RelayoutRequest` method is available for deriving controls to call when
