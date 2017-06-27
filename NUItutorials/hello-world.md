@@ -134,7 +134,7 @@ The initialization code contains the following simple steps:
 The user can click anywhere in the application window to change the text in the label:
 
 ~~~{.cs}
-    private void WindowTouched(object sender, Window.TouchEventArgs e)
+    private void WindowTouched(object sender, Window.TouchedEventArgs e)
     {
         _text.Text = "I have been touched!";
     }
@@ -195,7 +195,7 @@ namespace HelloTest
         }
 
         // Callback for main window touched signal handling
-        private void WindowTouched(object sender, Window.TouchEventArgs e)
+        private void WindowTouched(object sender, Window.TouchedEventArgs e)
         {
             _text.Text = "I have been touched!";
         }
