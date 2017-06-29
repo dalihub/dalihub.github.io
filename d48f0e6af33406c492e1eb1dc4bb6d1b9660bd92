@@ -1,0 +1,222 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "24c5ccb0_56eb28fd",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "No longer valid. Remove this sentence.",
+      "range": {
+        "startLine": 28,
+        "startChar": 49,
+        "endLine": 29,
+        "endChar": 58
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "93fc64da_014c4386",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "At no point do you describe what values to give the property index. In ContactView.cs, I\u0027ve used \"GetPropertyIndex(\"ImageURL\")\" for C# properties marked with \"[ScriptableProperty()]\" to make the process automatic.\n\n(Currently the ranges of values that should be used are private/internal to NUI)",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eaa04f9c_fa63e9af",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "AddVisual is a method of VisualView, not View class.",
+      "range": {
+        "startLine": 126,
+        "startChar": 4,
+        "endLine": 126,
+        "endChar": 8
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "36c211b2_3309f1dd",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "Please use a different image. No one uses index cards any more - this is anachronistic and not how DALi should be portrayed!",
+      "range": {
+        "startLine": 279,
+        "startChar": 1,
+        "endLine": 279,
+        "endChar": 31
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5767e5b3_1d8c3ac6",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "Depth index is used here, but should be described somewhere before. (It\u0027s valid for all visuals).",
+      "range": {
+        "startLine": 291,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 51
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "95d9289f_818f6cf4",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "Although, I\u0027m currently writing a new API for this which will allow multiple images to be displayed in turn...",
+      "range": {
+        "startLine": 351,
+        "startChar": 59,
+        "endLine": 351,
+        "endChar": 103
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5fa8a378_24903ad1",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "Not rendering properly.",
+      "range": {
+        "startLine": 657,
+        "startChar": 0,
+        "endLine": 660,
+        "endChar": 87
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c7694890_0dbc26e9",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 691,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "Change to viewSize to make it obvious",
+      "range": {
+        "startLine": 691,
+        "startChar": 19,
+        "endLine": 691,
+        "endChar": 23
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b05af371_40c20339",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "Should add an image to show how the visual is laid out within the view boundaries.",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6effbec3_f1fb2ab4",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 711,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-06-29T13:52:13Z",
+      "side": 1,
+      "message": "It does, but it also encapsulates a number of other properties about the visual.",
+      "range": {
+        "startLine": 711,
+        "startChar": 0,
+        "endLine": 711,
+        "endChar": 83
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
