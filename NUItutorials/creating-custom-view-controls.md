@@ -240,12 +240,10 @@ Careful consideration must be taken when choosing which property type to use for
 For example, an Animatable property type can be animated, but requires a lot more resources (both in its execution and memory footprint)
 compared to an event-side only property.
 
-Property registration for transistions and animations is via `GetPropertyIndex`, an example is shown in [rendering](#rendering).
-
 [Back to top](#top)
  
 <a name="enableproperties"></a>
-### Enabling properties for JSON access
+### Enabling properties for JSON access - property registration
 
 The `ScriptableProperty` class enables a property to be registered with the `type registry'.
 
@@ -271,6 +269,8 @@ public int Shape
         ...
         ...
     }
+
+Property registration for transistions and animations is via `GetPropertyIndex`, an example is shown in [rendering](#rendering).
 
 ~~~
 
