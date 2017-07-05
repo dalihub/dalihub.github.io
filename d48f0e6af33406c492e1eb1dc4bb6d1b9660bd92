@@ -25,6 +25,126 @@
     },
     {
       "key": {
+        "uuid": "9537cf79_dd92e20f",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2017-07-05T15:42:42Z",
+      "side": 1,
+      "message": "View",
+      "range": {
+        "startLine": 32,
+        "startChar": 33,
+        "endLine": 32,
+        "endChar": 37
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1c56b1f4_5443aec0",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2017-07-05T15:42:42Z",
+      "side": 1,
+      "message": "Maybe mention the factory here if the only way to create one",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c9af6530_8bb2fc96",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2017-07-05T15:42:42Z",
+      "side": 1,
+      "message": "Image, icons and text?",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c9a1a3ad_d227fbd5",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2017-07-05T15:42:42Z",
+      "side": 1,
+      "message": "This line should be below the \"The button\u0027s appearance ....\" I think?",
+      "range": {
+        "startLine": 49,
+        "startChar": 1,
+        "endLine": 49,
+        "endChar": 97
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fb26ffed_ae4bdfcb",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2017-07-05T15:42:42Z",
+      "side": 1,
+      "message": "When pressed the button moves from the unselected state to selected state.  The unselected visuals are replaces by the selected visuals.",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "71620332_b3e9f0ca",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2017-07-05T15:42:42Z",
+      "side": 1,
+      "message": "Maybe explain this structure a bit more or reference it to a marker like you did with [using a VisualMap]?",
+      "range": {
+        "startLine": 67,
+        "startChar": 11,
+        "endLine": 67,
+        "endChar": 19
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "93fc64da_014c4386",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
