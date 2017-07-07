@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "6e9eeee0_541de800",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1007416
+      },
+      "writtenOn": "2017-07-07T09:10:51Z",
+      "side": 1,
+      "message": "We use control here quite a lot.  We should only talk about Views as that\u0027s the term in C#.",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24c5ccb0_56eb28fd",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
