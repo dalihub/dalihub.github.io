@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "51a11ee4_af33cab0",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T10:16:42Z",
+      "side": 1,
+      "message": "This should be outside the code block.",
+      "range": {
+        "startLine": 272,
+        "startChar": 0,
+        "endLine": 273,
+        "endChar": 128
+      },
+      "revId": "feef84ae9fadc5e1a4649b1730bcd8d405b33e59",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
