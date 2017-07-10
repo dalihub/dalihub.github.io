@@ -19,6 +19,139 @@
     },
     {
       "key": {
+        "uuid": "0d94be3f_f8eeec9e",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T10:15:13Z",
+      "side": 1,
+      "message": "Nearly all uses of the word \u0027control\u0027 could be replaced by the word \u0027view\u0027.",
+      "parentUuid": "6e9eeee0_541de800",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "89a8091e_9bc188a8",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T10:15:13Z",
+      "side": 1,
+      "message": "C#, but what does \"so need to be compatible\" mean?",
+      "range": {
+        "startLine": 29,
+        "startChar": 40,
+        "endLine": 29,
+        "endChar": 51
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e08c9f35_01152100",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T10:15:13Z",
+      "side": 1,
+      "message": "remove \u0027be\u0027",
+      "range": {
+        "startLine": 35,
+        "startChar": 43,
+        "endLine": 35,
+        "endChar": 45
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8dac325_8d314690",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T10:15:13Z",
+      "side": 1,
+      "message": "Damn - another inconsistent API we\u0027ve missed.",
+      "range": {
+        "startLine": 80,
+        "startChar": 2,
+        "endLine": 80,
+        "endChar": 20
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d3efda0_12d2a45c",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T10:15:13Z",
+      "side": 1,
+      "message": "Table not rendering",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 99
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f88dd812_1154c919",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T10:15:13Z",
+      "side": 1,
+      "message": "We mention using visuals for images, but this is a view which doesn\u0027t actually use visuals directly. May be better to have an example where properties directly map to visuals.",
+      "range": {
+        "startLine": 205,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 1
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24c5ccb0_56eb28fd",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
