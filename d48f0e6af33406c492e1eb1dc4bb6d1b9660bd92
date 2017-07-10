@@ -152,6 +152,75 @@
     },
     {
       "key": {
+        "uuid": "2922d532_95bbf114",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T11:05:34Z",
+      "side": 1,
+      "message": "\u0027TouchEvent\u0027 event",
+      "range": {
+        "startLine": 312,
+        "startChar": 97,
+        "endLine": 312,
+        "endChar": 123
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "91f87d71_a1c7bd50",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T11:05:34Z",
+      "side": 1,
+      "message": "Whilst this statement is \u0027true\u0027, we don\u0027t actually have enumerations in CustomViewBehaviour to support triggering methods for override; we should either add the enums, or suggest using \u0027HoverEvent\u0027 and \u0027WheelEvent\u0027 directly.",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 317,
+        "endChar": 74
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01d07e7c_86bd5b8d",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 407,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2017-07-10T11:05:34Z",
+      "side": 1,
+      "message": "replace \u0027stage\u0027 with \u0027window\u0027. We need to change this API to refer to window connection instead of stage connection.",
+      "range": {
+        "startLine": 407,
+        "startChar": 42,
+        "endLine": 407,
+        "endChar": 64
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24c5ccb0_56eb28fd",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
