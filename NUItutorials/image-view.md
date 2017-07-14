@@ -43,7 +43,7 @@ ImageView has the following properties:
 | PixelArea | Vector4 | sub area of image. |
 | Border | Rectangle | The border of the image in the order:left, right, bottom, top. For N-Patch images only. |
 | BorderOnly | bool | Gets/sets whether to draws the borders only(If true). For N-Patch images only. |
-| SynchronosLoading | bool | Gets/Sets wheher the image is synchronos. For N-Patch images only. |
+| SynchronousLoading | bool | Gets/Sets whether the image is synchronous. For N-Patch images only. |
 
 Note:
 
