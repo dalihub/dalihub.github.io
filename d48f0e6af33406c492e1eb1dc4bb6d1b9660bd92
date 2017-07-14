@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "90a044f7_c5948467",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done - a few instances of \u0027control\u0027 have been left where I think appropriate.",
+      "parentUuid": "6e9eeee0_541de800",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "89a8091e_9bc188a8",
         "filename": "NUItutorials/creating-custom-view-controls.md",
         "patchSetId": 1
@@ -60,6 +78,30 @@
     },
     {
       "key": {
+        "uuid": "170149b0_ca6605ae",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89a8091e_9bc188a8",
+      "range": {
+        "startLine": 29,
+        "startChar": 40,
+        "endLine": 29,
+        "endChar": 51
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e08c9f35_01152100",
         "filename": "NUItutorials/creating-custom-view-controls.md",
         "patchSetId": 1
@@ -71,6 +113,30 @@
       "writtenOn": "2017-07-10T10:15:13Z",
       "side": 1,
       "message": "remove \u0027be\u0027",
+      "range": {
+        "startLine": 35,
+        "startChar": 43,
+        "endLine": 35,
+        "endChar": 45
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e1630280_a17d96ee",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e08c9f35_01152100",
       "range": {
         "startLine": 35,
         "startChar": 43,
@@ -129,6 +195,30 @@
     },
     {
       "key": {
+        "uuid": "db951d30_1d0f3636",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d3efda0_12d2a45c",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 99
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f88dd812_1154c919",
         "filename": "NUItutorials/creating-custom-view-controls.md",
         "patchSetId": 1
@@ -140,6 +230,30 @@
       "writtenOn": "2017-07-10T10:15:13Z",
       "side": 1,
       "message": "We mention using visuals for images, but this is a view which doesn\u0027t actually use visuals directly. May be better to have an example where properties directly map to visuals.",
+      "range": {
+        "startLine": 205,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 1
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e6af0e50_2606f4a7",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Have now changed to a JSON example of a view that uses visuals, this is in \u0027current\u0027 stylesheet format. I have also included a example of the \u0027new\u0027 stylesheet format, which is shortly to be introduced - as defined in \u0027Styling-Controls.md\u0027 - wiki article by Agnelo. This \u0027new\u0027 format example also includes visual mapping.",
+      "parentUuid": "f88dd812_1154c919",
       "range": {
         "startLine": 205,
         "startChar": 0,
@@ -175,6 +289,30 @@
     },
     {
       "key": {
+        "uuid": "1e1f2fac_489b25a8",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2922d532_95bbf114",
+      "range": {
+        "startLine": 312,
+        "startChar": 97,
+        "endLine": 312,
+        "endChar": 123
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "91f87d71_a1c7bd50",
         "filename": "NUItutorials/creating-custom-view-controls.md",
         "patchSetId": 1
@@ -186,6 +324,30 @@
       "writtenOn": "2017-07-10T11:05:34Z",
       "side": 1,
       "message": "Whilst this statement is \u0027true\u0027, we don\u0027t actually have enumerations in CustomViewBehaviour to support triggering methods for override; we should either add the enums, or suggest using \u0027HoverEvent\u0027 and \u0027WheelEvent\u0027 directly.",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 317,
+        "endChar": 74
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dce4c6f4_62cbb2dd",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "91f87d71_a1c7bd50",
       "range": {
         "startLine": 316,
         "startChar": 0,
@@ -221,6 +383,30 @@
     },
     {
       "key": {
+        "uuid": "d196994e_9b873497",
+        "filename": "NUItutorials/creating-custom-view-controls.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 407,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done - Changed \"stage\" to \"window\" in the section header and sentence, but kept the method names as they currently\nare for now.",
+      "parentUuid": "01d07e7c_86bd5b8d",
+      "range": {
+        "startLine": 407,
+        "startChar": 42,
+        "endLine": 407,
+        "endChar": 64
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "24c5ccb0_56eb28fd",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -232,6 +418,30 @@
       "writtenOn": "2017-06-29T13:52:13Z",
       "side": 1,
       "message": "No longer valid. Remove this sentence.",
+      "range": {
+        "startLine": 28,
+        "startChar": 49,
+        "endLine": 29,
+        "endChar": 58
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "88961cb1_00831478",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24c5ccb0_56eb28fd",
       "range": {
         "startLine": 28,
         "startChar": 49,
@@ -267,6 +477,30 @@
     },
     {
       "key": {
+        "uuid": "0ab2a2e5_43a15d6e",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9537cf79_dd92e20f",
+      "range": {
+        "startLine": 32,
+        "startChar": 33,
+        "endLine": 32,
+        "endChar": 37
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1c56b1f4_5443aec0",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -284,6 +518,24 @@
     },
     {
       "key": {
+        "uuid": "909295ca_ab5ab317",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1c56b1f4_5443aec0",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c9af6530_8bb2fc96",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -295,6 +547,24 @@
       "writtenOn": "2017-07-05T15:42:42Z",
       "side": 1,
       "message": "Image, icons and text?",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "584b7af5_cb566d73",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9af6530_8bb2fc96",
       "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -324,6 +594,30 @@
     },
     {
       "key": {
+        "uuid": "35647448_14ce57a6",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9a1a3ad_d227fbd5",
+      "range": {
+        "startLine": 49,
+        "startChar": 1,
+        "endLine": 49,
+        "endChar": 97
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fb26ffed_ae4bdfcb",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -335,6 +629,24 @@
       "writtenOn": "2017-07-05T15:42:42Z",
       "side": 1,
       "message": "When pressed the button moves from the unselected state to selected state.  The unselected visuals are replaces by the selected visuals.",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b16bd206_1de62aab",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fb26ffed_ae4bdfcb",
       "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -364,6 +676,30 @@
     },
     {
       "key": {
+        "uuid": "f34e1b97_6de202d4",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "71620332_b3e9f0ca",
+      "range": {
+        "startLine": 67,
+        "startChar": 11,
+        "endLine": 67,
+        "endChar": 19
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "93fc64da_014c4386",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -381,6 +717,24 @@
     },
     {
       "key": {
+        "uuid": "a965030a_09a834cc",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done - Added paragraph at end of this \u0027section\u0027",
+      "parentUuid": "93fc64da_014c4386",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eaa04f9c_fa63e9af",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -392,6 +746,30 @@
       "writtenOn": "2017-06-29T13:52:13Z",
       "side": 1,
       "message": "AddVisual is a method of VisualView, not View class.",
+      "range": {
+        "startLine": 126,
+        "startChar": 4,
+        "endLine": 126,
+        "endChar": 8
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2c6b21ff_524ec428",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eaa04f9c_fa63e9af",
       "range": {
         "startLine": 126,
         "startChar": 4,
@@ -427,6 +805,30 @@
     },
     {
       "key": {
+        "uuid": "bed3680b_f7c5d4f7",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "36c211b2_3309f1dd",
+      "range": {
+        "startLine": 279,
+        "startChar": 1,
+        "endLine": 279,
+        "endChar": 31
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5767e5b3_1d8c3ac6",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -438,6 +840,30 @@
       "writtenOn": "2017-06-29T13:52:13Z",
       "side": 1,
       "message": "Depth index is used here, but should be described somewhere before. (It\u0027s valid for all visuals).",
+      "range": {
+        "startLine": 291,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 51
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9298aa34_f2a7e225",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done - I have now added a \u0027Visual Depth Index\u0027 section before the descriptions of specific visuals.",
+      "parentUuid": "5767e5b3_1d8c3ac6",
       "range": {
         "startLine": 291,
         "startChar": 0,
@@ -473,6 +899,30 @@
     },
     {
       "key": {
+        "uuid": "f2b5116d_f935ad6c",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95d9289f_818f6cf4",
+      "range": {
+        "startLine": 351,
+        "startChar": 59,
+        "endLine": 351,
+        "endChar": 103
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5fa8a378_24903ad1",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -484,6 +934,30 @@
       "writtenOn": "2017-06-29T13:52:13Z",
       "side": 1,
       "message": "Not rendering properly.",
+      "range": {
+        "startLine": 657,
+        "startChar": 0,
+        "endLine": 660,
+        "endChar": 87
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59369718_2f59a661",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5fa8a378_24903ad1",
       "range": {
         "startLine": 657,
         "startChar": 0,
@@ -519,6 +993,30 @@
     },
     {
       "key": {
+        "uuid": "ca60a285_f57d146d",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 691,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7694890_0dbc26e9",
+      "range": {
+        "startLine": 691,
+        "startChar": 19,
+        "endLine": 691,
+        "endChar": 23
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b05af371_40c20339",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -536,6 +1034,24 @@
     },
     {
       "key": {
+        "uuid": "b1035ed9_2036b75f",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b05af371_40c20339",
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6effbec3_f1fb2ab4",
         "filename": "NUItutorials/visuals.md",
         "patchSetId": 1
@@ -547,6 +1063,30 @@
       "writtenOn": "2017-06-29T13:52:13Z",
       "side": 1,
       "message": "It does, but it also encapsulates a number of other properties about the visual.",
+      "range": {
+        "startLine": 711,
+        "startChar": 0,
+        "endLine": 711,
+        "endChar": 83
+      },
+      "revId": "d48f0e6af33406c492e1eb1dc4bb6d1b9660bd92",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "520243bf_006f02c2",
+        "filename": "NUItutorials/visuals.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 711,
+      "author": {
+        "id": 1011368
+      },
+      "writtenOn": "2017-07-14T11:12:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6effbec3_f1fb2ab4",
       "range": {
         "startLine": 711,
         "startChar": 0,
