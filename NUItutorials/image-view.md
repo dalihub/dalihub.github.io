@@ -29,7 +29,7 @@ imageView.SetImage("./images/gallery-4.jpg");
 
 This figure is displayed via an ImageView:
 
-![ ](./Images/ImageView.png) 
+![ ](./Images/image-view/ImageView.png) 
 
 ### Image View Properties
 

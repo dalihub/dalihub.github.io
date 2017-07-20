@@ -28,7 +28,7 @@ The `Animation` class can be used to animate the [animatable properties](#animat
 NUI animations occur in a [dedicated thread](#multithreading). This allows animations to run smoothly, regardless of the time
 taken to process the input, events, and other factors in the application code.
 
-![](./Images/NUI_Class_Hierarchy.png) This image shows the Animation classes in the NUI class hierarchy. The `Animatable` class contains 'property' 
+![](./Images/animation/NUI_Class_Hierarchy.png) This image shows the Animation classes in the NUI class hierarchy. The `Animatable` class contains 'property' 
 methods such as `GetProperty` and `IsPropertyAnimatable`. The `Animation` class contains [animation methods](#animationclassmethods)
 such as `AnimateBy` and `AnimateTo`.
 
@@ -309,7 +309,7 @@ _animation.AnimateBetween(focusData.ImageItem, "Size", keyFrames, Animation.Inte
 
 A `Path` can be used to animate the position and orientation of views.
 
-![ ](./Images/animated-path.png)
+![ ](./Images/animation/animated-path.png)
 
 The logo will travel to the black points on the diagram. The red points are the control points which
 express the curvature of the path on the black points.
@@ -388,7 +388,7 @@ rendering, whilst views provide thread-safe access.
 An example view hierarchy is shown below, in which one of the views is being animated. The objects in green are created by the
 application code, whilst the private objects in blue are used in the dedicated rendering thread.
 
-![](./Images/multi-threaded-animation.png)
+![](./Images/animation/multi-threaded-animation.png)
 
 #### Reading an animated value
 
@@ -427,7 +427,7 @@ Current position: 10,10,10
 
 When a property is being animated, the Animation will override any values set.
 
-![](./Images/multi-threaded-animation-2.png)
+![](./Images/animation/multi-threaded-animation-2.png)
 
 The order of execution in the render thread is:
 

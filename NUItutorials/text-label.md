@@ -36,7 +36,7 @@ The position of the label on-screen is dependent on the *parentOrigin* property.
 
 This image shows a text label with ParentOrigin.TopLeft:
 
-![ ](./Images/TextLabelTopLeft.png)
+![ ](./Images/text-controls/TextLabelTopLeft.png)
 
 To display a TextLabel the _Text_ property must be set using a UTF-8 string.
 Note: *CR+LF* new line characters are replaced by *LF*.
@@ -165,11 +165,11 @@ label.HorizontalAlignment = HorizontalAlignmentType.Right;
 |  |  |
 |--|--|
 | Here is the "BEGIN" alignment shown for left-to-right (Latin)   |  right-to-left (Arabic) scripts |
-| ![ ](./Images/LatinBegin.png) | ![ ](./Images/ArabicBegin.png) |
+| ![ ](./Images/text-controls/LatinBegin.png) | ![ ](./Images/text-controls/ArabicBegin.png) |
 | Here is the "CENTER" alignment shown for left-to-right (Latin)  | right-to-left (Arabic) scripts:|
-| ![ ](./Images/LatinCenter.png) | ![ ](./Images/ArabicCenter.png) |
+| ![ ](./Images/text-controls/LatinCenter.png) | ![ ](./Images/text-controls/ArabicCenter.png) |
 | Here is the "END" alignment shown for left-to-right (Latin)  | right-to-left (Arabic) scripts:|
-| ![ ](./Images/LatinEnd.png) | ![ ](./Images/ArabicEnd.png) |
+| ![ ](./Images/text-controls/LatinEnd.png) | ![ ](./Images/text-controls/ArabicEnd.png) |
 
 
 The examples above assume that the label size is greater than the minimum required.
@@ -188,7 +188,7 @@ label.Text = "Red Text";
 label.TextColor = Color.Red;
 ~~~
 
- ![ ](./Images/RedText.png)
+ ![ ](./Images/text-controls/RedText.png)
 
 #### Drop Shadow
 
@@ -219,13 +219,13 @@ shadow.Add("color", new PropertyValue("red"));
 label4.Shadow = shadow;
 ~~~
 
-![ ](./Images/PlainText.png)
+![ ](./Images/text-controls/PlainText.png)
 
-![ ](./Images/TextWithShadow.png)
+![ ](./Images/text-controls/TextWithShadow.png)
 
-![ ](./Images/TextWithBiggerShadow.png)
+![ ](./Images/text-controls/TextWithBiggerShadow.png)
 
-![ ](./Images/TextWithColorShadow.png)
+![ ](./Images/text-controls/TextWithColorShadow.png)
 
 
 #### Underline
@@ -253,9 +253,9 @@ textStyle.Add("color", new PropertyValue(Color.Green));
 label2.Underline = textStyle;
 ~~~
 
-![ ](./Images/TextWithUnderline.png)
+![ ](./Images/text-controls/TextWithUnderline.png)
 
-![ ](./Images/TextWithColorUnderline.png)
+![ ](./Images/text-controls/TextWithColorUnderline.png)
 
 By default the underline height will be taken from the font metrics, however this can be overridden:
 
@@ -273,7 +273,7 @@ The underline images above have a 1 pixel height.
 <a name="6"></a>
 ### Auto Scrolling
 
-![ ](./Images/AutoScroll.gif)
+![ ](./Images/text-controls/AutoScroll.gif)
 
 Auto TextLabel scrolling enables the text to scroll within the control, it can be used if text exceeds the
 boundary of the control, hence showing the full content. Autoscrolling will also scroll text that is smaller than

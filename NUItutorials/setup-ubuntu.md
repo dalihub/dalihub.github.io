@@ -242,7 +242,7 @@ message pane on building.
 
 Note: This step builds the 'nui' library.
 
-<img src="./Images/VSC.png">
+<img src="./Images/setup-ubuntu/VSC.png">
 
 The screenshot shows the key files associated with the "hello world" project in VSC Explorer.
 
@@ -290,7 +290,7 @@ These settings will be picked up if the application is run via F5.
     1. On desktop, select **System Settings > Network > Network Proxy > HTTP Proxy** and type the IP address, including port number
     2. On desktop, select **System Settings > Network > Network Proxy > HTTPS Proxy** and type the IP address, including port number
 
-<img src="./Images/SystemProxySettings.png">
+<img src="./Images/setup-ubuntu/SystemProxySettings.png">
 
 * Configure VSC firewall proxy settings (_for install of library packages such as mono runtime and .NET Core Debugger_) 
     1. Select File > Preferences > Settings > Edit
@@ -304,7 +304,7 @@ These settings will be picked up if the application is run via F5.
 
 The proxy settings are saved to the `settings.json` file.
 
-<img src="./Images/VSC_ExtandSettings.png">
+<img src="./Images/setup-ubuntu/VSC_ExtandSettings.png">
 
 The screenshot shows the installed C# extension package, and also the proxy settings for the library packages
 in the `settings.json` file.

@@ -61,7 +61,7 @@ There are several controls derived from `CustomView` objects already existing in
   Tap gesture is also enabled on the `ContactView` which changes the color visual to some random color when the
   ContactView is tapped.
 
-![ ](./Images/ContactView.png)
+![ ](./Images/creating-custom-controls/ContactView.png)
 
 The contact view screenshot shows 5 contacts, each with the 4 visuals.
 
@@ -297,7 +297,7 @@ Styling gives the UI designer the ability to change the look and feel of the Vie
  
 | Normal Style | Customized Style |
 |:------------:|:----------------:|
-|![ ](./Images/popup-normal.png) | ![ ](./Images/popup-styled.png)|
+|![ ](./Images/creating-custom-controls/popup-normal.png) | ![ ](./Images/creating-custom-controls/popup-styled.png)|
  
 The [styling tutorial](styling_controls_with_JSON.md) explains how to build up visuals for the button states using JSON stylesheets,
 and transitioning between the various button states.

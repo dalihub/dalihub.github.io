@@ -148,7 +148,7 @@ The last registered visual is always on top.
 
 Renders a color to the visual's quad geometry.
  
-![ ](./Images/color-visual.png)
+![ ](./Images/visuals/color-visual.png)
 
 Visual.Type : **Color**
 
@@ -197,7 +197,7 @@ Both Linear and Radial gradients are supported.
 
 | Linear | Radial |
 |--------|--------|
-| ![ ](./Images/linear-gradient-visual.png) | ![ ](./Images/radial-gradient-visual.png) |
+| ![ ](./Images/visuals/linear-gradient-visual.png) | ![ ](./Images/visuals/radial-gradient-visual.png) |
 
 Visual.Type : **Gradient**
 
@@ -299,7 +299,7 @@ Visual.Type : **Image**
  
 Renders a raster image ( jpg, png etc.) into the visual's quad geometry.
  
-![ ](./Images/ImageView.png)
+![ ](./Images/visuals/ImageView.png)
 
 #### Usage
 
@@ -335,7 +335,7 @@ VisualMap : **ImageVisual**
 Renders an n-patch or a 9-patch image. Uses non-quad geometry. Both geometry and texture are cached to reduce memory consumption
 if the same n-patch image is used elsewhere.
  
-![ ](./Images/n-patch-visual.png)
+![ ](./Images/visuals/n-patch-visual.png)
 
 VisualMap : **NPatchVisual**
 
@@ -363,7 +363,7 @@ Renders a svg image into the visual's quad geometry.
  
 <div style="width:300px">
  
-![ ](./Images/svg-visual.svg)
+![ ](./Images/visuals/svg-visual.svg)
  
 </div>
 
@@ -374,7 +374,7 @@ VisualMap : **SVGVisual**
 Renders an animated image into the visual's quad geometry. Currently, only the GIF format is supported,
 however a new API is under development (_July 2017_) to enable multiple images to be displayed in turn.
 
-![ ](./Images/animated-image-visual.gif)
+![ ](./Images/visuals/animated-image-visual.gif)
 
 VisualMap : **AnimatedImageVisual**
 
@@ -385,7 +385,7 @@ VisualMap : **AnimatedImageVisual**
 
 Renders a color as an internal border to the visual's geometry.
 
-![ ](./Images/border-visual.png)
+![ ](./Images/visuals/border-visual.png)
 
 Visual.Type : **Border**
 
@@ -435,7 +435,7 @@ VisualMap : **BorderVisual**
 
 Renders a mesh using an .obj file, optionally with textures provided by an `mtl` file. Scaled to fit the control.
  
-![ ](./Images/mesh-visual.png)
+![ ](./Images/visuals/mesh-visual.png)
 
 Visual.Type : **Mesh**
 
@@ -493,7 +493,7 @@ Renders a simple 3D shape, such as a cube or sphere. Scaled to fit the control.
 
 The shapes are generated with clockwise winding and back-face culling on by default.
 
-![ ](./Images/cube.png)
+![ ](./Images/visuals/cube.png)
  
 Visual.Type : **Primitive**
 
@@ -566,13 +566,13 @@ There are six shapes that can be chosen, some of which are simplified specialisa
 
 **sphere:**
  
-![ ](./Images/sphere.png)
+![ ](./Images/visuals/sphere.png)
  
 **conics:**
  
 | Frustrum | Cone | Cylinder |
 |----------|------|----------|
-| ![ ](./Images/conical-frustrum.png) | ![ ](./Images/cone.png) | ![ ](./Images/cylinder.png) |
+| ![ ](./Images/visuals/conical-frustrum.png) | ![ ](./Images/visuals/cone.png) | ![ ](./Images/visuals/cylinder.png) |
  
 <a name="bevel"></a>
 #### Bevel
@@ -581,21 +581,21 @@ Bevel percentage ranges from 0.0 to 1.0. It affects the ratio of the outer face 
  
 | 0.0 ( cube) | 0.3 | 0.7 | 1.0 (octahedron) |
 |-------------|-----|-----|------------------|
-| ![ ](./Images/cube.png) | ![ ](./Images/bevelled-cube-low.png) | ![ ](./Images/bevelled-cube-high.png) | ![ ](./Images/octahedron.png) |
+| ![ ](./Images/visuals/cube.png) | ![ ](./Images/visuals/bevelled-cube-low.png) | ![ ](./Images/visuals/bevelled-cube-high.png) | ![ ](./Images/visuals/octahedron.png) |
 
 <a name="slices"></a>
 #### Slices
  
 For spheres and conical frustrums, 'slices' determines how many divisions there are as you move around the object.
  
-![ ](./Images/slices.png)
+![ ](./Images/visuals/slices.png)
 
 <a name="stacks"></a> 
 #### Stacks
  
 For spheres, 'stacks' determines how many layers there are as you go down the object.
  
-![ ](./Images/stacks.png)
+![ ](./Images/visuals/stacks.png)
 
 [Back to top](#top)
 
@@ -606,7 +606,7 @@ Renders a wireframe around a quad geometry.
 
 The wireframe visual is mainly used for debugging, replacing all other visuals when 'Visual Debug Rendering' is turned on.
 
-![ ](./Images/wireframe-visual.png)
+![ ](./Images/visuals/wireframe-visual.png)
 
 [Back to top](#top)
 
@@ -615,7 +615,7 @@ The wireframe visual is mainly used for debugging, replacing all other visuals w
 
 Renders text within a control.
 
-![ ](./Images/HelloWorld.png)
+![ ](./Images/visuals/HelloWorld.png)
 
 **Visual.Type** : "Text"
 
@@ -716,7 +716,7 @@ Tap gesture is also enabled on the `ContactView`, which changes the color visual
 
 This screenshot taken from a `ContactView`, shows the configuration and size of the visuals, set via 'transformation' during initial display (in the `OnRelayout` method).
  
-![ ](./Images/ContactView.png)
+![ ](./Images/visuals/ContactView.png)
 
 Here is the corresponding code sample, for the image visual:
 
