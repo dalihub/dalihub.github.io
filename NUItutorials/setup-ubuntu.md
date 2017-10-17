@@ -88,6 +88,7 @@ will give you a basic understanding of projects in VSC.
     $ git clone git@github.com:dalihub/dali-adaptor
     $ git clone git@github.com:dalihub/dali-csharp-binder
     $ git clone git@github.com:dalihub/dali-toolkit
+    $ git clone git@github.com:dalihub/app-stub
     $ git clone git@github.com:dalihub/nui
 ~~~
 
@@ -114,7 +115,7 @@ will give you a basic understanding of projects in VSC.
 These steps only need to be done once.
 
 You will have to source your environment variables every time you open up a new terminal (or you can add to `.bashrc` if you prefer).
-You can do this by sourcing the ''setenv'' script you created above: 
+You can do this by sourcing the ''setenv'' script you created above:
 
 ~~~{.sh}
     $ . setenv
@@ -164,65 +165,82 @@ If ok, DALi demo window will appear.
     $ make install -j8
 ~~~
 
-* Copy the `nui` source folder to a new sub-folder `nuirun` (_for subsequent overwriting of files_)
+* Build app-stub C# repository, by running these commands from the app-stub folder.
 
 ~~~{.sh}
-    $ cd ~/DALiNUI
-    $ mkdir nuirun
-    $ cp -r nui/Tizen.NUI/src nuirun
+    $ cd ~/DALiNUI/app-stub
+    $ dotnet restore
+    $ dotnet build
 ~~~
 
-* Copy/overwrite two NUI files in ~/DALiNUI/nuirun/src/public
-    1. Download [CoreUIApplication.cs](http://dalihub.github.io/NUIsetup/CoreUIApplication.cs)
-    2. Download [NUIApplication.cs](http://dalihub.github.io/NUIsetup/NUIApplication.cs)
-    3. Place these files in your nuirun/src/public folder (You will have to overwrite `NUIApplication.cs`).
+* Build nui repository as a library
+    1. Download [build-nui-as-lib.sh](http://dalihub.github.io/NUIsetup/build-nui-as-lib.sh)
+    2. Place in your ~/bin folder (or equivalent)
+    3. Run the build script:
 
-_These 2 files are necessary, as NUI in Ubuntu is not fully supported just yet. (July 2017)_
+~~~{.sh}
+    $ cd ~/DALiNUI/nui
+    $ ~/bin/build-nui-as-lib.sh
+~~~
 
-* To subsequently clean the build (if required), see [Appendix B](#buildclean)
+This creates a separate Tizen.NUI.Code folder which is used to build the NUI toolkit as a separate library.
+It does not build any of the example code within the sample folders.
 
 [Back to top](#top)
 
 <a name="buildnui"></a>
-### Build NUI and Run the Hello World (NUI) Tutorial
+### Build your own application
 
 * Create tutorial file 
     1. Copy code in _"full example"_ section of the [NUI Hello World tutorial](hello-world.md) to a new file, `hello-world.cs`
     2. Create a _tutorials_ folder
-    2. Copy `hello-world.cs` to the nuirun folder:
+    2. Copy `hello-world.cs` to the tutorials folder:
 
 ~~~{.sh}
+    $ cd ~/DALiNUI
     $ mkdir tutorials
-    $ cp hello-world.cs ~/DALiNUI/nuirun/tutorials
+    $ cp hello-world.cs ~/DALiNUI/tutorials
 ~~~
 
 * Create a 'Hello World' project in VSC
     1. [Open VSC](#install)
     2. Select File > Open Folder in the main menu.
-    3. Select the `nuirun` folder in the File Dialog
+    3. Select the `tutorials` folder in the File Dialog
     4. Open the command prompt CTRL+` (backtick)
     5. In the Integrated Terminal, type the following:
+    
 ~~~{.sh}
     $ cd ~/DALiNUI
     $ . setenv
-    $ cd ~/DALiNUI/nuirun
+    $ cd ~/DALiNUI/tutorials
     $ dotnet new console
 ~~~
 
 The 'setenv' will not be necessary, if the environment has been set up in your .bashrc as described in [Build environment](#buildenv))
 
-The 'dotnet new console' creates a Project, with a Project file `nuirun.csproj` and a `Program.cs` file.
+The 'dotnet new console' creates a Project, with a Project file `tutorials.csproj` and a `Program.cs` file.
 
 + Delete Program.cs in VSC Explorer, as its not needed.
 
 + Modify project file
-    1. Edit `nuirun.csproj`, adding the following line inside the 'PropertyGroup' element:
+    1. Edit `tutorials.csproj`, adding the following lines inside the 'Project' element:
+    
+~~~{.sh}
+    <ItemGroup>
+      <ProjectReference Include="..\nui\Tizen.NUI.Code\Tizen.NUI.csproj" />
+      <ProjectReference Include="..\app-stub\Tizen.Applications.csproj" />
+    </ItemGroup>
+~~~
+
+    2. Add the following line inside the 'PropertyGroup' element:
+    
 ~~~{.sh}
     <DefineConstants>DOT_NET_CORE</DefineConstants>
 ~~~
 
 + Build assets
     1. Restore the dependencies and tools of a project.
+    
 ~~~{.sh}
     $ dotnet restore
 ~~~
@@ -240,16 +258,12 @@ message pane on building.
     $ dotnet build
 ~~~
 
-Note: This step builds the 'nui' library.
+Note: This step builds the 'tutorials' executable.
 
 <img src="./Images/setup-ubuntu/VSC.png">
 
 The screenshot shows the key files associated with the "hello world" project in VSC Explorer.
 
-* Copy shared library to application runtime location (_This step needs to be done after build step, so `bin` folder exists_)
-~~~{.sh}
-   cp dali-env/opt/lib/libdali-csharp-binder.so ~/DALiNUI/nuirun/bin/Debug/netcoreapp1.1/
-~~~
 
 + To Run full size application in VSC integrated terminal
 ~~~{.sh}
@@ -317,13 +331,6 @@ in the `settings.json` file.
 
 These export variables could also be set in your `.bashrc` file.
 
-<a name="buildclean"></a>
-### Appendix B - Clean build
-
-To clean the NUI Build:
-~~~{.sh}
-    $ make maintainer-clean	
-~~~
 
 [Back to top](#top)
 
