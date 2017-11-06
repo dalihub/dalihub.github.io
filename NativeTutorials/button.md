@@ -41,7 +41,7 @@ Buttons can contain various Visuals not just ImageVisual.
 
 Below is an example using [ImageVisual](#ButtonWithImageVisual), [TextVisual](#ButtonWithTextVisual) and [ColorVisual](#ButtonWithColorVisual)
 
-< a name="ButtonWithImageVisual"></a>
+<a name="ButtonWithImageVisual"></a>
 ##### Setting ImageVisual using Property Map
 
 ~~~{.cpp}
