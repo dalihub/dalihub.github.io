@@ -5,12 +5,8 @@ This tutorial describes the button controls including, _PushButton_, _Checkbox_,
 
 In this tutorial the following subjects are covered:
 
-[Button creation](#1)<br>
-[Button states](#2)<br>
+[Button creation with Visuals](#1)<br>
 [Button events](#3)<br>
-[Button visuals](#4)<br>
-[Tool tips](#5)<br>
-[Button properties](#6)<br>
 
 ## Overview
 
@@ -41,9 +37,12 @@ UNSELECTED_BACKGROUND_VISUAL = Dali::Toolkit::Button::Property::UNSELECTED_STATE
 SELECTED_BACKGROUND_VISUAL = Dali::Toolkit::Button::Property::SELECTED_STATE_IMAGE.<br>
 DISABLED_UNSELECTED_BACKGROUND_VISUAL = Dali::Toolkit::Button::Property::DISABLED_STATE_IMAGE.<br>
 
-push button:
+Buttons can contain various Visuals not just ImageVisual.
 
-##### Setting ImageVisual  using Property Map
+Below is an example using [ImageVisual](#ButtonWithImageVisual), [TextVisual](#ButtonWithTextVisual) and [ColorVisual](#ButtonWithColorVisual)
+
+< a name="ButtonWithImageVisual"></a>
+##### Setting ImageVisual using Property Map
 
 ~~~{.cpp}
 ...
@@ -67,10 +66,11 @@ contentContainer.AddChild( button );
 
 ~~~
 
-#### Setting Text Labels to a PushButton using a Property Map (Full Control)
+<a name="ButtonWithTextVisual"></a>
+#### Setting Text to a PushButton using a Property Map (Full Control)
 
 ~~~{.cpp}
-button = Toolkit::PushButton::New();
+Toolkit::PushButton button = Toolkit::PushButton::New();
 Property::Map textSettingsMap;
               textSettingsMap.Add( Visual::Property::TYPE, Toolkit::Visual::TEXT )
                              .Add( TextVisual::Property::TEXT, "Press Me" )
@@ -80,10 +80,53 @@ Property::Map textSettingsMap;
 button.SetProperty( Toolkit::Button::Property::LABEL, textSettingsMap );
 ~~~
 
-#### Setting Text Labels to a Button using a string (Basic)
+
+<a name="ButtonWithColorVisual"></a>
+#### Setting a ColorVisual to a PushButton using a Property Map
 
 ~~~{.cpp}
-button = Toolkit::PushButton::New();
+Toolkit::PushButton button = Toolkit::PushButton::New();
+Property::Map visualSettingMap;
+              visualSettingMap.Add( Visual::Property::TYPE, Toolkit::Visual::COLOR )
+                              .Add( ColorVisual::Property::MIX_COLOR, Vector4( R, G, B, 1.0f ) );
+
+button.SetProperty( DevelButton::Property::UNSELECTED_BACKGROUND_VISUAL, visualSettingMap );
+
+OR
+
+button.SetProperty( Toolkit::Button::Property::UNSELECTED_STATE_IMAGE, visualSettingMap );
+
+
+~~~
+<a name="ButtonWithMixedVisuals"></a>
+#### Setting a ColorVisual for the background and a TextVisual for the Label.
+
+Using the above ColorVisual and TextVisual to have a color background with text in the foreground.
+
+~~~{.cpp}
+Toolkit::PushButton button = Toolkit::PushButton::New();
+Property::Map visualSettingMap;
+              visualSettingMap.Add( Visual::Property::TYPE, Toolkit::Visual::COLOR )
+                              .Add( ColorVisual::Property::MIX_COLOR, Vector4( R, G, B, 1.0f ) );
+
+button.SetProperty( Toolkit::Button::Property::UNSELECTED_STATE_IMAGE, visualSettingMap );
+
+Property::Map textSettingsMap;
+              textSettingsMap.Add( Visual::Property::TYPE, Toolkit::Visual::TEXT )
+                             .Add( TextVisual::Property::TEXT, "Press Me" )
+                             .Add( TextVisual::Property::MULTI_LINE, true )
+                             .Add( TextVisual::Property::POINT_SIZE, 12.0f );
+
+button.SetProperty( Toolkit::Button::Property::LABEL, textSettingsMap );
+
+
+~~~
+
+
+#### Setting Text to a Button using a string (Basic)
+
+~~~{.cpp}
+Toolkit::PushButton button = Toolkit::PushButton::New();
 button.SetProperty( Toolkit::Button::Property::LABEL, "Select" );
 ~~~
 
