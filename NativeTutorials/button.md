@@ -42,32 +42,38 @@ Buttons can contain various Visuals not just ImageVisual.
 Below is an example using [ImageVisual](#ButtonWithImageVisual), [TextVisual](#ButtonWithTextVisual) and [ColorVisual](#ButtonWithColorVisual)
 
 <a name="ButtonWithImageVisual"></a>
-##### Setting ImageVisual using Property Map
+##### Setting ImageVisual to a Button using a Property Map
+
+Right button (Red) is when the button is selected.
+
+![ ](../images/pushbutton01.png)
+![ ](../images/pushbutton02.png)
+
+Selected and unselected images are provided to the button as two property maps containing the required URL.
 
 ~~~{.cpp}
 ...
 PushButton button = PushButton::New();
 
-Property::Map imagePropertyMap;
-              imagePropertyMap.Add( Visual::Property::TYPE,  Visual::IMAGE )
-              imagePropertyMap.Add( ImageVisual::Property::URL, "pressed-image-file.jpg" );
+button.SetProperty( Button::Property::SELECTED_STATE_IMAGE,
+                    Property::Map().Add( Visual::Property::TYPE,  Visual::IMAGE )
+                    .Add( ImageVisual::Property::URL, DEMO_IMAGE_DIR "red-button.png" )
+                    );
 
-button.SetProperty( DevelButton::Property::SELECTED_BACKGROUND_VISUAL, imagePropertyMap );
+button.SetProperty( Button::Property::UNSELECTED_STATE_IMAGE,
+                    Property::Map().Add( Visual::Property::TYPE,  Visual::IMAGE )
+                    .Add( ImageVisual::Property::URL, DEMO_IMAGE_DIR "green-button.png" )
+                    );
 
-imagePropertyMap.Clear();
-imagePropertyMap.Add( Visual::Property::TYPE,  Visual::IMAGE )
-imagePropertyMap.Add( ImageVisual::Property::URL, "unselected-image-file.jpg" );
-
-button.SetProperty( DevelButton::Property::UNSELECTED_BACKGROUND_VISUAL, LOADING_IMAGE );
-
-button.ClickedSignal().Connect( this, &ButtonClicked );
-
-contentContainer.AddChild( button );
+button.SetParentOrigin( ParentOrigin::CENTER );
+mView.Add( button );  // Adding button to stage via mView which is a staged control.
 
 ~~~
 
 <a name="ButtonWithTextVisual"></a>
 #### Setting Text to a PushButton using a Property Map (Full Control)
+
+![ ](../images/button-label.png)
 
 ~~~{.cpp}
 Toolkit::PushButton button = Toolkit::PushButton::New();
@@ -131,27 +137,52 @@ button.SetProperty( Toolkit::Button::Property::LABEL, "Select" );
 ~~~
 
 #### Check box button set up
+Two checkboxes with default selected and unselected images.
+
+![ ](../images/checkbox.png)
 
 ~~~{.cpp}
-CheckBoxButton checkBoxbutton = new CheckBoxButton();
-checkBoxbutton.LabelText = "Yes";
-checkBoxbutton.BackgroundColor = Color.White;
+Toolkit::CheckBoxButton checkboxButton1 = Toolkit::CheckBoxButton::New();
+checkboxButton1.SetProperty( Toolkit::Button::Property::LABEL, "CheckBox is selectable" );
+checkboxButton1.StateChangedSignal().Connect( this, &ButtonCode::CheckBoxSelected );
+checkboxButton1.SetParentOrigin( ParentOrigin::CENTER );
+checkboxButton1.SetAnchorPoint( AnchorPoint::BOTTOM_CENTER );
+checkboxButton1.SetName("one");
+
+Toolkit::CheckBoxButton checkboxButton2 = Toolkit::CheckBoxButton::New();
+checkboxButton2.SetProperty( Toolkit::Button::Property::LABEL, "CheckBox is selectable" );
+checkboxButton2.StateChangedSignal().Connect( this, &ButtonCode::CheckBoxSelected );
+checkboxButton2.SetParentOrigin( ParentOrigin::CENTER );
+checkboxButton2.SetAnchorPoint( AnchorPoint::TOP_CENTER );
+checkboxButton2.SetName("two");
+
+mView.Add( checkboxButton1 );
+mView.Add( checkboxButton2 );
 ~~~
 
 #### Radio buttons set up in a Group
 
+Radio buttons parented to the same control only allow one to be selected at any time.
+
+![ ](../images/radioButtonGroup.png)
+
 ~~~{.cpp}
-Control radioGroup = Control::New();
-radioGroup.SetParentOrigin.Centre;
+Control mView = Control::New();
 
-RadioButton button1 = RadioButton::New();
-button1.LabelText = "Yes";
-button1.Selected = true;
-radioGroup.Add(button1);
+Toolkit::RadioButton radioButton1 = Toolkit::RadioButton::New();
+radioButton1.SetProperty( Toolkit::Button::Property::LABEL, "High" );
+radioButton1.SetParentOrigin( ParentOrigin::CENTER );
+radioButton1.SetAnchorPoint( AnchorPoint::BOTTOM_CENTER );
+radioButton1.SetName("one");
 
-RadioButton button2 = RadioButton::New();
-button2.LabelText = "No";
-radioGroup.Add(button2);
+Toolkit::RadioButton radioButton2 = Toolkit::RadioButton::New();
+radioButton2.SetProperty( Toolkit::Button::Property::LABEL, "Low" );
+radioButton2.SetParentOrigin( ParentOrigin::CENTER );
+radioButton2.SetAnchorPoint( AnchorPoint::TOP_CENTER );
+radioButton2.SetName("two");
+
+mView.Add( radioButton1 );
+mView.Add( radioButton2 );
 ~~~
 
 #### Toggle button set up
