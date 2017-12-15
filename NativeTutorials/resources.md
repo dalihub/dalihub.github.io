@@ -10,7 +10,7 @@ The common method to access these resources is through Visuals.
 
 Controls then use these visuals to display what is required.
 
-See [ImageView tutorial](../imageView.md)
+See [ImageView tutorial](./imageView.md)
 
 ## Loading images
 
