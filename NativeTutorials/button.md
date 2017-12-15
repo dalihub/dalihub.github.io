@@ -47,8 +47,8 @@ Below is an example using [ImageVisual](#ButtonWithImageVisual), [TextVisual](#B
 
 Right button (Red) is when the button is selected.
 
-![ ](../images/pushbutton01.png)
-![ ](../images/pushbutton02.png)
+<img src="../images/pushbutton01" width="400" height="600">
+<img src="../images/pushbutton02" width="400" height="600">
 
 Selected and unselected images are provided to the button as two property maps containing the required URL.
 
