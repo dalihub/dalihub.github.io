@@ -29,7 +29,7 @@ Each Visual has it's own Properties which can be set.
 ~~~{.cpp}
 auto imageView = ImageView:New();
 
-imageView.SetProperty( ImageView::Property::IMAGE,UtcDaliVisualAction
+imageView.SetProperty( ImageView::Property::IMAGE,
                        Property::Map().Add( ImageVisual::Property::URL, "./images/apple.svg" )
                                       .Add( ImageVisual::Property::ATLASING, false  ) );
 

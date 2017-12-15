@@ -27,11 +27,11 @@ This tutorial describes how to create, register and use visuals.
 Visuals provide reusable rendering logic.
 
 Visuals are the main building block of controls.
- 
+
 Visuals reuse geometry, shaders etc. across controls, and manage the renderer and texture existance when the control is been displayed.
 Additionally visuals, respond to `View` size and color change, while also providing clipping at the renderer level.
 
-Visuals are configured via *properties*. 
+Visuals are configured via *properties*.
 
 To create a visual:
 * Create a property map
@@ -51,7 +51,7 @@ Each state and sub-state should have the required visuals. A visual can be commo
 
 When a button is pressed it moves from the Unselected state to the Selected state. The Unselected visuals
 are replaced by the Selected visuals.
- 
+
 When the button is disabled, Background, Button and Selected visuals are replaced by their 'disabled' visuals.
 
 The [styling tutorial](styling_controls_with_JSON.md) explains how to build up and transition visuals, for the button states using JSON stylesheets.
@@ -59,7 +59,7 @@ The [styling tutorial](styling_controls_with_JSON.md) explains how to build up a
 <a name="visualproperties"></a>
 ### Visual Properties
 
-Visual properties are set through a property map. 
+Visual properties are set through a property map.
 
 There are 2 methods of using property maps:
 * Specific 'property' structures for each visual, e.g. `ColorVisualProperty`. These structures specify the properties of each visual type.
@@ -77,12 +77,12 @@ may be capable of rendering the same contents.
 The following visual types are available:
 
 | Type  |
-| ------------| 
+| ------------|
 | Border    |
 | Color     |
 | Gradient  |
 | Image     |
-| Mesh      | 
+| Mesh      |
 | Primitive |
 | WireFrame |
 | Text      |
@@ -90,7 +90,7 @@ The following visual types are available:
 | SVG          |
 | Animated Image |
 
-'Type' should be added to the property map. 
+'Type' should be added to the property map.
 
 [Back to top](#top)
 
@@ -147,8 +147,8 @@ The last registered visual is always on top.
 ### Color visual
 
 Renders a color to the visual's quad geometry.
- 
-![ ](./Images/visuals/color-visual.png)
+
+![ ](../images/visuals/color-visual.png)
 
 Visual.Type : **Color**
 
@@ -192,12 +192,12 @@ VisualMap  : **ColorVisual**
 ### Gradient Visual
 
 Renders a smooth transition of colors to the visual's quad geometry.
- 
+
 Both Linear and Radial gradients are supported.
 
 | Linear | Radial |
 |--------|--------|
-| ![ ](./Images/visuals/linear-gradient-visual.png) | ![ ](./Images/visuals/radial-gradient-visual.png) |
+| ![ ](../images/visuals/linear-gradient-visual.png) | ![ ](../images/visuals/radial-gradient-visual.png) |
 
 Visual.Type : **Gradient**
 
@@ -268,7 +268,7 @@ Defines the coordinate system for the attributes:
  + Start (x1, y1) and End (x2 and y2) points of a line if using a linear gradient.
  + Center point (cx, cy) and radius (r) of a circle if using a radial gradient.
 
-<a name="gradientspreadmethod"></a> 
+<a name="gradientspreadmethod"></a>
 #### Spread Method
 
 Indicates what happens if the gradient starts or ends inside the bounds of the target rectangle.
@@ -285,9 +285,9 @@ Indicates what happens if the gradient starts or ends inside the bounds of the t
 ### Image Visual
 
 Renders an image into the visual's geometry.
- 
+
 The visual provided, depends on the extension of the image.
- 
+
 * Normal (Quad)
 * N-Patch
 * SVG
@@ -296,10 +296,10 @@ The visual provided, depends on the extension of the image.
 Visual.Type : **Image**
 
 ### Normal
- 
+
 Renders a raster image ( jpg, png etc.) into the visual's quad geometry.
- 
-![ ](./Images/visuals/ImageView.png)
+
+![ ](../images/visuals/ImageView.png)
 
 #### Usage
 
@@ -317,7 +317,7 @@ _imageVisual.DepthIndex = ImageVisualPropertyIndex;
 
 #### Properties
 
-| ImageVisualProperty | Name          | Type              | Required | Description 
+| ImageVisualProperty | Name          | Type              | Required | Description
 |---------------------------------------------------------|---------------|:-----------------:|:--------:|----------------------------------------------------|
 |                     | URL           | STRING            | Yes      | The URL of the image.                                                                  |
 |                     | FittingMode   | INTEGER or STRING | No       | Fitting options, used when resizing images to fit desired dimensions.|
@@ -334,37 +334,37 @@ VisualMap : **ImageVisual**
 
 Renders an n-patch or a 9-patch image. Uses non-quad geometry. Both geometry and texture are cached to reduce memory consumption
 if the same n-patch image is used elsewhere.
- 
-![ ](./Images/visuals/n-patch-visual.png)
+
+![ ](../images/visuals/n-patch-visual.png)
 
 VisualMap : **NPatchVisual**
 
 ### SVG
 
 Renders a svg image into the visual's quad geometry.
- 
+
 #### Features: SVG Tiny 1.2 specification
 
 **supported:**
- 
+
   * basic shapes
   * paths
   * solid color fill
   * gradient color fill
   * solid color stroke
- 
+
 **not supported:**
- 
+
   * gradient color stroke
   * dash array stroke
   * view box
   * text
   * clip path
- 
+
 <div style="width:300px">
- 
-![ ](./Images/visuals/svg-visual.svg)
- 
+
+![ ](../images/visuals/svg-visual.svg)
+
 </div>
 
 VisualMap : **SVGVisual**
@@ -374,7 +374,7 @@ VisualMap : **SVGVisual**
 Renders an animated image into the visual's quad geometry. Currently, only the GIF format is supported,
 however a new API is under development (_July 2017_) to enable multiple images to be displayed in turn.
 
-![ ](./Images/visuals/animated-image-visual.gif)
+![ ](../images/visuals/animated-image-visual.gif)
 
 VisualMap : **AnimatedImageVisual**
 
@@ -385,7 +385,7 @@ VisualMap : **AnimatedImageVisual**
 
 Renders a color as an internal border to the visual's geometry.
 
-![ ](./Images/visuals/border-visual.png)
+![ ](../images/visuals/border-visual.png)
 
 Visual.Type : **Border**
 
@@ -434,8 +434,8 @@ VisualMap : **BorderVisual**
 ### Mesh Visual
 
 Renders a mesh using an .obj file, optionally with textures provided by an `mtl` file. Scaled to fit the control.
- 
-![ ](./Images/visuals/mesh-visual.png)
+
+![ ](../images/visuals/mesh-visual.png)
 
 Visual.Type : **Mesh**
 
@@ -477,7 +477,7 @@ VisualMap : **MeshVisual**
 
 <a name="meshvisualshadingmode"></a>
 #### Shading Mode
- 
+
 | Enumeration  | Name                                   | Description                                                                                                             |
 |---------------------------------------------------------------------------------|------------------------------------------|----------------------------------------------------|
 |              | TexturelessWithDefuseLighting          | *Simplest*. One color that is lit by ambient and diffuse lighting.                                                      |
@@ -493,8 +493,8 @@ Renders a simple 3D shape, such as a cube or sphere. Scaled to fit the control.
 
 The shapes are generated with clockwise winding and back-face culling on by default.
 
-![ ](./Images/visuals/cube.png)
- 
+![ ](../images/visuals/cube.png)
+
 Visual.Type : **Primitive**
 
 ### Usage
@@ -552,7 +552,7 @@ VisualMap : **PrimitiveVisual**
 
 There are six shapes that can be chosen, some of which are simplified specialisations of another.
 
-| Enumeration  | Name             | Description                                                                       | 
+| Enumeration  | Name             | Description                                                                       |
 |---------------------------------------------------------|------------------|----------------------------------------|
 |              | Sphere           | *Default*.                                                                        |
 |              | ConicalFrustrum  | The area bound between two circles, i.e. a cone with the tip removed.             |
@@ -565,37 +565,37 @@ There are six shapes that can be chosen, some of which are simplified specialisa
 #### Examples below:
 
 **sphere:**
- 
-![ ](./Images/visuals/sphere.png)
- 
+
+![ ](../images/visuals/sphere.png)
+
 **conics:**
- 
+
 | Frustrum | Cone | Cylinder |
 |----------|------|----------|
-| ![ ](./Images/visuals/conical-frustrum.png) | ![ ](./Images/visuals/cone.png) | ![ ](./Images/visuals/cylinder.png) |
- 
+| ![ ](../images/visuals/conical-frustrum.png) | ![ ](../images/visuals/cone.png) | ![ ](../images/visuals/cylinder.png) |
+
 <a name="bevel"></a>
 #### Bevel
- 
+
 Bevel percentage ranges from 0.0 to 1.0. It affects the ratio of the outer face widths to the width of the overall cube, as shown:
- 
+
 | 0.0 ( cube) | 0.3 | 0.7 | 1.0 (octahedron) |
 |-------------|-----|-----|------------------|
-| ![ ](./Images/visuals/cube.png) | ![ ](./Images/visuals/bevelled-cube-low.png) | ![ ](./Images/visuals/bevelled-cube-high.png) | ![ ](./Images/visuals/octahedron.png) |
+| ![ ](../images/visuals/cube.png) | ![ ](../images/visuals/bevelled-cube-low.png) | ![ ](../images/visuals/bevelled-cube-high.png) | ![ ](../images/visuals/octahedron.png) |
 
 <a name="slices"></a>
 #### Slices
- 
-For spheres and conical frustrums, 'slices' determines how many divisions there are as you move around the object.
- 
-![ ](./Images/visuals/slices.png)
 
-<a name="stacks"></a> 
+For spheres and conical frustrums, 'slices' determines how many divisions there are as you move around the object.
+
+![ ](../images/visuals/slices.png)
+
+<a name="stacks"></a>
 #### Stacks
- 
+
 For spheres, 'stacks' determines how many layers there are as you go down the object.
- 
-![ ](./Images/visuals/stacks.png)
+
+![ ](../images/visuals/stacks.png)
 
 [Back to top](#top)
 
@@ -606,16 +606,16 @@ Renders a wireframe around a quad geometry.
 
 The wireframe visual is mainly used for debugging, replacing all other visuals when 'Visual Debug Rendering' is turned on.
 
-![ ](./Images/visuals/wireframe-visual.png)
+![ ](../images/visuals/wireframe-visual.png)
 
 [Back to top](#top)
 
 <a name="textvisual"></a>
-### Text Visual 
+### Text Visual
 
 Renders text within a control.
 
-![ ](./Images/visuals/HelloWorld.png)
+![ ](../images/visuals/HelloWorld.png)
 
 **Visual.Type** : "Text"
 
@@ -638,7 +638,7 @@ _textVisual.DepthIndex = TextVisualPropertyIndex;
 
 #### Properties
 
-| TextVisualProperty  | Name                | Type          | Required | Description                                                                   | 
+| TextVisualProperty  | Name                | Type          | Required | Description                                                                   |
 |---------------------|---------------------|---------------|----------|-------------------------------------------------------------------------------|
 |                     | Text                | STRING        | Yes      | The text to display in UTF-8 format                                           |
 |                     | FontFamily          | STRING        | No       | The requested font family to use                                              |
@@ -689,7 +689,7 @@ For example, an offsetPolicy of [ RELATIVE, RELATIVE ], a sizePolicy of [ ABSOLU
 means the visual will be 20 pixels by 20 pixels in size, positioned 25% above the center of the control.
 
 <a name="visualalignment"></a>
-#### Visual Alignment 
+#### Visual Alignment
 
 The `AlignType` enum specifies the visual alignment:
 
@@ -704,7 +704,7 @@ The `AlignType` enum specifies the visual alignment:
 | BottomEnd    | Aligns to the bottom of the vertical axis and the beginning of the horizontal axis |
 | BottomCentre | Aligns to the bottom of the vertical axis and the center of the horizontal axis
 | BottomEnd    | Aligns to the bottom of the vertical axis and end of the horizontal axis |
- 
+
 [Back to top](#top)
 
 <a name="visualtransformexample"></a>
@@ -715,8 +715,8 @@ All of these visuals can be configured via properties - ImageURL (Image), Shape 
 Tap gesture is also enabled on the `ContactView`, which changes the color visual to some random color when the `ContactView` is tapped.
 
 This screenshot taken from a `ContactView`, shows the configuration and size of the visuals, set via 'transformation' during initial display (in the `OnRelayout` method).
- 
-![ ](./Images/visuals/ContactView.png)
+
+![ ](../images/visuals/ContactView.png)
 
 Here is the corresponding code sample, for the image visual:
 
@@ -820,4 +820,3 @@ _visualView.Size = new Size(window.Size.Width, window.Size.Height, 0.0f);
 [Gradient Visuals](#gradientvisual) shows an example of adding a gradient visual to a `VisualView`.
 
 [Back to top](#top)
-
