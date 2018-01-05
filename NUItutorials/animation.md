@@ -28,7 +28,7 @@ The `Animation` class can be used to animate the [animatable properties](#animat
 NUI animations occur in a [dedicated thread](#multithreading). This allows animations to run smoothly, regardless of the time
 taken to process the input, events, and other factors in the application code.
 
-![](./Images/animation/NUI_Class_Hierarchy.png) This image shows the Animation classes in the NUI class hierarchy. The `Animatable` class contains 'property' 
+![](./Images/animation/NUI_Class_Hierarchy.png) This image shows the Animation classes in the NUI class hierarchy. The `Animatable` class contains 'property'
 methods such as `GetProperty` and `IsPropertyAnimatable`. The `Animation` class contains [animation methods](#animationclassmethods)
 such as `AnimateBy` and `AnimateTo`.
 
@@ -212,7 +212,7 @@ float alphafunc(float progress)
     {
         return progress + 0.8f;
     }
- 
+
     return progress;
 }
 
@@ -340,7 +340,7 @@ between the splines of each segment.
 To animate `view1` along this path:
 
 ~~~{.cs}
-animation.Animate( view1, path, new Position(0.0f, 0.0f, 0.0f) );
+animation.AnimatePath( view1, path, new Position(0.0f, 0.0f, 0.0f) );
 ~~~
 
 The third parameter is the forward vector (in local space coordinate system) that will be oriented with the path's
@@ -426,8 +426,6 @@ Current position: 10,10,10
 #### Setting a property during an animation
 
 When a property is being animated, the Animation will override any values set.
-
-![](./Images/animation/multi-threaded-animation-2.png)
 
 The order of execution in the render thread is:
 
@@ -540,4 +538,3 @@ public void AnimatePath(View view, Path path, Vector3 forward, AlphaFunction alp
 | ProgressNotification   |    float        | Gets/Sets the Progress notification marker which triggers the ProgressReached Event, should be between 0 and 1 |
 
 [Back to top](#top)
-

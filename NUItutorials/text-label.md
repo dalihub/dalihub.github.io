@@ -181,7 +181,7 @@ The examples above assume that the label size is greater than the minimum requir
 #### Color
 
 To change the color of the text, the recommended way is to use the TEXT_COLOR property.  
-Note that unlike the View COLOR property, this will not affect child Actors added to the TextLabel.  
+This will not affect children added to the TextLabel.  
 
 ~~~{.cs}
 label.Text = "Red Text";
@@ -293,7 +293,7 @@ The _EnableAutoScroll_ property should be set to TRUE to enable scrolling:
 label.EnableAutoScroll = true;
 ~~~
 
-Once enabled, scrolling will continue until the loop count is completed, or _EnableAutoScroll_ is set to false. 
+Once enabled, scrolling will continue until the loop count is completed, or _EnableAutoScroll_ is set to false.
 Setting _EnableAutoScroll_ to false will let the text complete it's current scrolling loop then stop.
 
 The scroll speed, gap and loop count can be set in the stylesheet or via these relevant properties:
@@ -329,7 +329,7 @@ The scroll direction is chosen automatically with the following rules:
 <a name="7"></a>
 ### Mark-up Style
 
-Mark-up tags can be used to change the style of the text. 
+Mark-up tags can be used to change the style of the text.
 
 By default the text controls don't process the mark-up string. To enable the mark-up string processing the property
 _EnableMarkup_ must be set to *true*.
@@ -420,11 +420,8 @@ All text label properties are writable.
 
 Text label properties are not animatable.
 
-### More information on the Text label 
+### More information on the Text label
 
 The [Hello World tutorial](hello-world.md) describes how to display text in a text label.
 
 [Back to top](#0)
-
-
-

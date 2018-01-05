@@ -1,5 +1,5 @@
 <a name="top"></a>
-# Creating Custom View controls 
+# Creating Custom View controls
 
 [Overview](#overview)<br>
 [Guidelines for creating a custom view](#guidelines)<br>
@@ -14,7 +14,6 @@
 [Setting view behaviour](#viewbehaviour)<br>
 [Events](#events)<br>
 [Gestures](#gestures)<br>
-[Accessibility](#accessibility)<br>
 [Window connection](#defaultwindowconnection)<br>
 [Size Negotiation](#sizenegotiation)<br>
 
@@ -39,7 +38,7 @@ NUI provides the ability to create custom views.
 
 <a name="exisingcustomview"></a>
 ### The existing CustomView class
-The NUI `CustomView` class provides common functionality required by all views. The `CustomView` class is derived 
+The NUI `CustomView` class provides common functionality required by all views. The `CustomView` class is derived
 from the `View` class.
 
 ~~~{.cs}
@@ -52,25 +51,12 @@ where:
     public class ViewWrapper : View
 ~~~
 
-There are several controls derived from `CustomView` objects already existing in NUI, including:
+An example control derived from `CustomView` objects already existing in NUI is:
 
 * **Spin** control, which is used for continuously changing values when users can easily predict a set of values.
 
-* **ContactView** which consists of four visuals (Image, Primitive, Text and Color), to display contact information.
-  All of these visuals can be configured via properties - ImageURL (Image), Shape (Primitive), Name (Text) and Color.
-  Tap gesture is also enabled on the `ContactView` which changes the color visual to some random color when the
-  ContactView is tapped.
-
-![ ](./Images/creating-custom-controls/ContactView.png)
-
-The contact view screenshot shows 5 contacts, each with the 4 visuals.
-
-* A **VisualView** control enabling the addition of any visual. See [Visual View class](visuals.md#visualview)
-
-* A **StarRating** custom control, for 'star' rating of images (draggable to change the rating).
-
 #### CustomView methods
- 
+
 Key `CustomView` methods include:
 
 | Name                   | Description |
@@ -85,7 +71,7 @@ Key `CustomView` methods include:
 
 
 [Back to top](#top)
- 
+
 <a name="creation"></a>
 ### Custom View Creation
 
@@ -140,9 +126,9 @@ public override void OnInitialize()
 
 To render content, the required views can be created and added to the control itself as its children.
 However, this solution is not fully optimised and means extra views will be added, which is extra processing.
- 
+
 It is recommended to use/reuse visuals to create the required content. See [Visuals tutorial](visuals.md).
- 
+
 The following code snippet shows the creation and registration of an image visual in `ContactView.cs`.
 
 ~~~{.cs}
@@ -189,12 +175,12 @@ A range of property indices are provided for `ImageVisualPropertyIndex`, 0 by de
 The [Visuals tutorial](visuals.md) describes the property maps that can be used for each visual type.
 
 [Back to top](#top)
- 
+
 <a name="stylable"></a>
 ### Ensuring View is Stylable
 
 The NUI property system allows custom views to be easily styled. The JSON Syntax is used in the stylesheets:
- 
+
 **JSON Styling Syntax Example - current format:**
 
 This is an example of the current stylesheet 'format', (_as at July 2017_). This example includes a visual.
@@ -294,24 +280,24 @@ This example also includes a visual.
 ~~~
 
 Styling gives the UI designer the ability to change the look and feel of the View without any code changes.
- 
+
 | Normal Style | Customized Style |
 |:------------:|:----------------:|
 |![ ](./Images/creating-custom-controls/popup-normal.png) | ![ ](./Images/creating-custom-controls/popup-styled.png)|
- 
+
 The [styling tutorial](styling_controls_with_JSON.md) explains how to build up visuals for the button states using JSON stylesheets,
 and transitioning between the various button states.
 
 [Back to top](#top)
- 
+
 <a name="typeregistration"></a>
-### Type Registration 
+### Type Registration
 
 The 'Type Registry' is used to register your custom view.
 
 Type registration allows the creation of the view via a JSON file, as well as registering properties, signals, actions,
 transitions and animation effects.
- 
+
 Type Registration is via the `ViewRegistry` method, see [Custom View creation](#creation).
 
 [Back to top](#top)
@@ -361,7 +347,7 @@ Each state and sub-state can have an "entry" and "exit" transition.
 To make defining common transitions easier an effect can be used with a "from" and "to" state. One such effect is
 CROSSFADE which animates the opacity of visuals fading in and out to give a nice transition.
 
-Transition effects can be read from stylesheets, or 'directly' via the `CreateTransition` API. 
+Transition effects can be read from stylesheets, or 'directly' via the `CreateTransition` API.
 
 #### CreateTransition API
 
@@ -422,7 +408,7 @@ return this.CreateTransition(_transitionData);
 #### Example of Transition values in a stylesheet
 
 Example using CROSSFADE effect:
- 
+
 ~~~{json}
 "transitions":
 [
@@ -447,7 +433,7 @@ Example using CROSSFADE effect:
 ### Setting View behaviour
 
 The `CustomViewBehaviour` enum specifies the following behaviour:
- 
+
 | Behaviour                            | Description                                                                                                    |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | ViewBehaviourDefault                 | Default behavior (size negotiation is on, style change is monitored, event callbacks are not called.)           |
@@ -488,16 +474,16 @@ The `View` class contains `TouchEvent`, `WheelEvent` and `HoverEvent` events.
 
 NUI has a gesture system which analyses a stream of touch events and attempts to determine the intention of the user.
 The following gesture detectors are provided:
- 
+
  + **Pan:** When the user starts panning (or dragging) one or more fingers.
             The panning should start from within the bounds of the view.
  + **Pinch:** Detects when two touch points move towards or away from each other.
               The center point of the pinch should be within the bounds of the view.
  + **Tap:** When the user taps within the bounds of the view.
  + **LongPress:** When the user presses and holds on a certain point within the bounds of a view.
- 
+
 Gesture detectors can be specified in the `OnInitialize` method.
- 
+
 This code snippet is taken from the `ContactView` custom view:
 
 ~~~{.cs}
@@ -511,7 +497,7 @@ public override void OnInitialize()
 The `EnableGestureDetection` method allows deriving classes to enable any of the gesture detectors that are available.
 The above snippet of code will only enable the default gesture detection for each type. If customization of the gesture detection
 is required, then the gesture-detector can be retrieved and set up accordingly in the same method, as shown here:
- 
+
 ~~~{.cs}
 PanGestureDetector panGestureDetector = GetPanGestureDetector();
 panGestureDetector.AddDirection( PanGestureDetector.DIRECTION_VERTICAL );
@@ -552,18 +538,6 @@ public override void OnTap(TapGesture tap)
 
 [Back to top](#top)
 
-<a name="accessibility"></a>
-### Accessibility
-
-Accessibility is functionality that has been designed to aid usage by the visually impaired.
- 
-Accessibility behaviour can be customized in the view by overriding certain virtual methods.
-An example is `OnAccessibilityTouch`. Touch events are delivered differantly in 'Accessibility' mode.
-`OnAccessibilityTouch` should be overridden if some special behaviour is required when these touch events
-are received. 
-
-[Back to top](#top)
-
 <a name="defaultwindowconnection"></a>
 ### Window Connection
 
@@ -574,7 +548,7 @@ is connected to, or disconnected from the window.
 OnStageConnection( int depth )
 ~~~
 
-and 
+and
 
 ~~~{.cs}
 OnStageDisconnection()
@@ -588,10 +562,10 @@ OnStageDisconnection()
 Size negotiation controls the size of views in a container.
 
 Size negotiation is implemented via a range of `ResizePolicies`, declared in the `ResizePolicyType` enum.
- 
+
 | Name                            | Description                                                                   |
 |--------------------------------------|--------------------------------------------------------------------------|
-| Fixed                     | Size is fixed as set by SetSize (default)      |
+| Fixed                     | Size is fixed as set by Size2D property (default)      |
 | UseNaturalSize            | Size is to use the views's natural size, e.g. The dimensions of the image, or the size of the text |
 | FillToParent              | Size is to fill up to the views's parent's bounds. Aspect ratio is not maintained. |
 | SizeRelativeToParent      | Fill up the parent with a relative scale. Use SetSizeModeFactor to specify the ratio to fill up to the parent. |
@@ -627,18 +601,17 @@ they would like themselves to be relaid out.
 The following overridable methods provide customization points for the size negotiation algorithm:
 
 * `GetNaturalSize` returns the natural size of the view
- 
+
 * `GetHeightForWidth` Returns the height for a given width. Invoked by the size negotiation algorithm if we have a fixed width.
 * `GetWidthForHeight` Returns the width for a given height. Invoked by the size negotiation algorithm if we have a fixed height.
 
 * Override the `OnRelayout` method to position and resize. `OnRelayout` is called during the relayout process at the end of the frame
-  immediately after the new size has been set on the view. i.e after size negotiation is complete. 
+  immediately after the new size has been set on the view. i.e after size negotiation is complete.
 
 * `OnSetResizePolicy` is called when the resize policy is set on a view. Allows deriving views to respond to changes in resize policy.
-  `OnSetResizePolicy` can be overridden to receive notice that the resize policy has changed on the view and action can be taken. 
+  `OnSetResizePolicy` can be overridden to receive notice that the resize policy has changed on the view and action can be taken.
 
 Size negotiation is enabled on views by default. To disable size negotiation, simply pass in the
 `DisableSizeNegotiation` behaviour flag into the view constructor. See [behaviour flags](#viewbehaviour)
 
 [Back to top](#top)
-

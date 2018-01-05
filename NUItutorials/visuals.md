@@ -228,8 +228,6 @@ stopColor.Add(new PropertyValue(new Vector4(129.0f, 198.0f, 193.0f, 150.0f) / 25
 stopColor.Add(new PropertyValue(Color.Yellow));
 
 gradientVisualMap1.StopColor = stopColor;
-gradientVisualMap1.StartPosition = new Vector2(0.5f, 0.5f);
-gradientVisualMap1.EndPosition = new Vector2(-0.5f, -0.5f);
 gradientVisualMap1.Center = new Vector2(0.5f, 0.5f);
 gradientVisualMap1.Radius = 1.414f;
 gradientVisualMap1.Size = new Vector2(100.0f, 100.0f);
@@ -605,6 +603,9 @@ For spheres, 'stacks' determines how many layers there are as you go down the ob
 Renders a wireframe around a quad geometry.
 
 The wireframe visual is mainly used for debugging, replacing all other visuals when 'Visual Debug Rendering' is turned on.
+
+Set the DALI_DEBUG_RENDERING environment value to 1 to switch this feature on.
+e.g export DALI_DEBUG_RENDERING=1 before executing application. 0 to switch off.
 
 ![ ](../images/visuals/wireframe-visual.png)
 
