@@ -1,3 +1,8 @@
+---
+layout: default
+title: Actor Tutorial
+---
+
 <a name="0"></a>
 # Actor Tutorial
 
@@ -61,7 +66,7 @@ The red dot indicates the anchor point.  The ParentOrigin in both is ParentOrigi
 
 | AnchorPoint::CENTER | AnchorPoint::TOP_LEFT |
 | --- | --- |
-| ![ ](../images/actors-top-left-center.png) | ![ ](../images/actors-top-left-top-left.png) |
+| ![ ](/dali-documentation/assets/images/controls/actors-top-left-center.png) | ![ ](/dali-documentation/assets/images/controls/actors-top-left-top-left.png) |
 | ParentOrigin::TOP_LEFT | ParentOrigin::TOP_LEFT |
 
 ### ParentOrigin
@@ -78,7 +83,7 @@ The red dot indicates the parent origin.  The AnchorPoint in both is AnchorPoint
 
 | ParentOrigin::CENTER | ParentOrigin::TOP_LEFT |
 | --- | --- |
-| ![ ](../images/actors-center-top-left.png) | ![ ](../images/actors-top-left-top-left.png) |
+| ![ ](/dali-documentation/assets/images/controls/actors-center-top-left.png) | ![ ](/dali-documentation/assets/images/controls/actors-top-left-top-left.png) |
 | AnchorPoint::TOP_LEFT | AnchorPoint::TOP_LEFT |
 
 ### Position
@@ -102,7 +107,7 @@ appleImageView.SetProperty(Actor::Property::INHERIT_POSITION, false );
 Now the applie is still parented to the green rectange but positioned center to the stage (World Position (0,0) ).
 The parent green rectangle can be repositioned without affecting the position of the child ( apple ).
 
-![ ](../images/position-inheritance.png)
+![ ](/dali-documentation/assets/images/controls//position-inheritance.png)
 
 <a name="3"></a>
 ## Event Handling for Actors

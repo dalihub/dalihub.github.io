@@ -1,3 +1,7 @@
+---
+layout: default
+title: Animation Tutorial
+---
 <a name="0"></a>
 # Animation Tutorial
 
@@ -5,9 +9,9 @@ This tutorial describes the Dali Animation framework
 
 In this tutorial the following subjects are covered:
 
-[Setting up an Animation](#1)</br>
-[Animation Notifications](#2)</br>
-[Key Frames](#3)</br>
+[Setting up an Animation](#1)<br>
+[Animation Notifications](#2)<br>
+[Key Frames](#3)<br>
 
 ## Overview
 

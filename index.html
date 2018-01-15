@@ -1,74 +1,107 @@
----
-title: Document Center
----
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/dali-documentation/assets/css/style.css?v=" media="screen" type="text/css">
+    <link rel="stylesheet" href="/dali-documentation/assets/css/print.css" media="print" type="text/css">
 
-<p>This site is under construction.</p>
-<br>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-<div class="image">
-<img src="images/DaliLogo320x200.png" style="width: 30%; height: 30%"/>
-</div>
+<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>dali first page | DALi Developers Guide</title>
+<meta name="generator" content="Jekyll v3.7.0" />
+<meta property="og:title" content="dali first page" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Dynamic Animation Library" />
+<meta property="og:description" content="Dynamic Animation Library" />
+<link rel="canonical" href="http://localhost:4000/dali-documentation/docs/" />
+<meta property="og:url" content="http://localhost:4000/dali-documentation/docs/" />
+<meta property="og:site_name" content="DALi Developers Guide" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-01-10T15:17:09+00:00" />
+<script type="application/ld+json">
+{"description":"Dynamic Animation Library","@type":"BlogPosting","url":"http://localhost:4000/dali-documentation/docs/","headline":"dali first page","dateModified":"2018-01-10T15:17:09+00:00","datePublished":"2018-01-10T15:17:09+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dali-documentation/docs/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-<h2>DALi</h2>
-<p>DALi documentation placeholder</p>
-<br>
+  </head>
 
-<h2>Stagehand</h2>
-<p>Stagehand is a tool for visualising the Actors in the Scene graph of a DALi Application</p>
-<p><li><a href="stagehand/stagehand.html">Stagehand documentation and information</a></li></p>
-<br>
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/dali-documentation/">
+          <h1>DALi Developers Guide</h1>
+        </a>
+        <h2>Dynamic Animation Library</h2>
+        
+        
+      </div>
+    </header>
 
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2 id="welcome-to-dali">Welcome to DALi</h2>
 
+<p>This guide will take you through what you need to know to produce efficient, dynamic and visually rich applications in DALi easily.<br /></p>
 
-<script src="raphael-min.js"><
-<script src="flowchart-latest.js"></script>
+<h2 id="what-is-dali">What is DALi</h2>
 
-You can parse the text:
+<p>DALi is a dynamic animation library, a 2D and 3D scene graph that abstracts the rendering of the nodes through a simple API.<br /></p>
 
-<div id="diagram"></div>
-<script>
-  var diagram = flowchart.parse("the code definition");
-  diagram.drawSVG('diagram');
+<p>It can be used to create 2D and 3D applications, providing support for resource loading, touch events, key events, animating the nodes and a whole array of functionality to make it easy for the user to produce effects, applications and user interfaces.<br /></p>
 
-  // you can also try to pass options:
+<p>DALi is developed with user input responsiveness, smooth updates with good FPS and low memory requirements in mind.<br /></p>
 
-  diagram.drawSVG('diagram', {
-                              'x': 0,
-                              'y': 0,
-                              'line-width': 3,
-                              'line-length': 50,
-                              'text-margin': 10,
-                              'font-size': 14,
-                              'font-color': 'black',
-                              'line-color': 'black',
-                              'element-color': 'black',
-                              'fill': 'white',
-                              'yes-text': 'yes',
-                              'no-text': 'no',
-                              'arrow-end': 'block',
-                              'scale': 1,
-                              // style symbol types
-                              'symbols': {
-                                'start': {
-                                  'font-color': 'red',
-                                  'element-color': 'green',
-                                  'fill': 'yellow'
-                                },
-                                'end':{
-                                  'class': 'end-element'
-                                }
-                              },
-                              // even flowstate support ;-)
-                              'flowstate' : {
-                                'past' : { 'fill' : '#CCCCCC', 'font-size' : 12},
-                                'current' : {'fill' : 'yellow', 'font-color' : 'red', 'font-weight' : 'bold'},
-                                'future' : { 'fill' : '#FFFF99'},
-                                'request' : { 'fill' : 'blue'},
-                                'invalid': {'fill' : '#444444'},
-                                'approved' : { 'fill' : '#58C4A3', 'font-size' : 12, 'yes-text' : 'APPROVED', 'no-text' : 'n/a' },
-                                'rejected' : { 'fill' : '#C45879', 'font-size' : 12, 'yes-text' : 'n/a', 'no-text' : 'REJECTED' }
-                              }
-                            });
-</script>
+<p>A Toolkit is provided to make using DALi even easier along with a framework that facilitates the creating of your own controls.<br /></p>
 
+<p>Dali is Open Source, constantly maintained and extended.<br /></p>
 
+<h2 id="getting-started">Getting Started</h2>
+
+<p>DALi repositories are avaiable in GitHub with instructions to install and build.<br /></p>
+
+<p>The main DALi concepts are outlined below and followed by tutorials to show DALi in action.<br /></p>
+
+<h2 id="learn-about-the-dali-main-concepts">Learn about the DALi main concepts</h2>
+
+<p><a href="./docs/concepts/visuals-summary">Visuals</a> <br />
+<a href="./docs/concepts/control">Controls</a></p>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<p><a href="./docs/native-tutorials/actor">Actors</a> <br />
+<a href="./docs/native-tutorials/animation">Animation</a> <br />
+<a href="./docs/native-tutorials/button">Button</a> <br />
+<a href="./docs/native-tutorials/imageView">ImageView</a> <br />
+<a href="./docs/native-tutorials/resources">Resources</a> <br />
+<a href="./docs/native-tutorials/visuals">Visuals</a> <br /></p>
+
+<h2 id="whats-new">What’s new</h2>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> Resource Loading Policies
+<span class="p">-</span> Animated GIF
+
+</code></pre></div></div>
+
+<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
