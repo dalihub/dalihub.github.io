@@ -51,8 +51,8 @@ Below is an example using [ImageVisual](#ButtonWithImageVisual), [TextVisual](#B
 
 Right button (Red) is when the button is selected.
 
-<img src="/dali-documentation/assets/images/controls/pushbutton01.png" width="400" height="600">
-<img src="/dali-documentation/assets/images/controls/pushbutton02.png" width="400" height="600">
+<img src=" {{site.baseurl}}/assets/images/controls/pushbutton01.png" width="400" height="600">
+<img src=" {{site.baseurl}}/assets/images/controls/pushbutton02.png" width="400" height="600">
 
 Selected and unselected images are provided to the button as two property maps containing the required URL.
 
@@ -78,7 +78,7 @@ mView.Add( button );  // Adding button to stage via mView which is a staged cont
 <a name="ButtonWithTextVisual"></a>
 #### Setting Text to a PushButton using a Property Map (Full Control)
 
-<img src="/dali-documentation/assets/images/controls/button-label.png" width="400" height="600">
+<img src=" !{{site.baseurl}}/assets/images/controls/button-label.png" width="400" height="600">
 
 ~~~{.cpp}
 Toolkit::PushButton button = Toolkit::PushButton::New();
@@ -144,7 +144,7 @@ button.SetProperty( Toolkit::Button::Property::LABEL, "Select" );
 #### Check box button set up
 Two checkboxes with default selected and unselected images.
 
-<img src="/dali-documentation/assets/images/controls/checkbox.png" width="400" height="600">
+<img src=" {{site.baseurl}}/assets/images/" width="400" height="600">
 
 ~~~{.cpp}
 Toolkit::CheckBoxButton checkboxButton1 = Toolkit::CheckBoxButton::New();
@@ -169,7 +169,7 @@ mView.Add( checkboxButton2 );
 
 Radio buttons parented to the same control only allow one to be selected at any time.
 
-![ ](/dali-documentation/assets/images/controls/radioButtonGroup.png)
+ ![]({{site.baseurl}}/assets/images/controls/radioButtonGroup.png)
 
 ~~~{.cpp}
 Control mView = Control::New();

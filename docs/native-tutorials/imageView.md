@@ -52,7 +52,7 @@ imageView.SetResizePolicy( ResizePolicy::USE_NATURAL_SIZE, Dimension::ALL_DIMENS
 
 This image is displayed via an ImageView:
 
-<img src="/dali-documentation/assets/images/controls/image-view.png" width="400" height="600">
+<img src="{{site.baseurl}}/assets/images/controls/image-view.png" width="400" height="600">
 ### Image View Properties
 
 ImageView has the following properties:

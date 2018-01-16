@@ -44,12 +44,12 @@ In the second example with the url being passed in directly, the ImageView will 
 Currently the Visual avaiable are:
 
 | Visual | Example | Visual | Example
-| --- | ---
-| Border | ![](/dali-documentation/assets/images/visuals/border-visual.png) | Color | ![ ](/dali-documentation/assets/images/visuals/color-visual.png)
-| Gradient | ![ ](/dali-documentation/assets/images/visuals/linear-gradient-visual.png) | Image |  ![ ](/dali-documentation/assets/images/visuals//house.png)
-| SVG | <img src="/dali-documentation/assets/images/visuals/svg-visual.svg" width="200" height="300"> | NPatch | ![ ](/dali-documentation/assets/images/visuals/n-patch-visual.png)
-| Animated Image | ![ ](/dali-documentation/assets/images/visuals/animated-image-visual.gif) | Mesh | ![](/dali-documentation/assets/images/visuals/mesh-visual.png)
-| Primitive | ![ ](/dali-documentation/assets/images/visuals/cube.png) | Text | ![ ](/dali-documentation/assets/images/visuals/HelloWorld.png)
+| --- | --- |
+| Border | ![]({{site.baseurl}}/assets/images/visuals/border-visual.png) | Color | ![ ]({{site.baseurl}}/assets/images/visuals/color-visual.png)
+| Gradient | ![ ]({{site.baseurl}}/assets/images/visuals/linear-gradient-visual.png) | Image |  ![ ]({{site.baseurl}}/assets/images/visuals//house.png)
+| SVG | <img src="{{site.baseurl}}/assets/images/visuals/svg-visual.svg" width="200" height="300"> | NPatch | ![ ]({{site.baseurl}}/assets/images/visuals/n-patch-visual.png)
+| Animated Image | ![ ]({{site.baseurl}}/assets/images/visuals/animated-image-visual.gif) | Mesh | ![]({{site.baseurl}}/assets/images/visuals/mesh-visual.png)
+| Primitive | ![ ]({{site.baseurl}}/assets/images/visuals/cube.png) | Text | ![ ]({{site.baseurl}}/assets/images/visuals/HelloWorld.png)
 
 WireFrame Visual - The wireframe visual is mainly used for debugging, replacing all other visuals
 when 'Visual Debug Rendering' is turned on.
@@ -74,7 +74,7 @@ If developing controls then read [Visual Creation and Registration](#visualcreat
 
 Renders a color to the visual's quad geometry.
 
-![ ](/dali-documentation/assets/images/visuals/color-visual.png)
+![]({{site.baseurl}}/assets/images/visuals/color-visual.png)
 
 Visual.Type : **Color**
 
@@ -123,7 +123,7 @@ Both Linear and Radial gradients are supported.
 
 | Linear | Radial |
 |--------|--------|
-| ![ ](/dali-documentation/assets/images/visuals/linear-gradient-visual.png) | ![ ](/dali-documentation/assets/images/visuals/radial-gradient-visual.png) |
+| ![]({{site.baseurl}}/assets/images/visuals/linear-gradient-visual.png) |  ![]({{site.baseurl}}/assets/images/visuals/radial-gradient-visual.png) |
 
 Visual.Type : **Gradient**
 
@@ -203,7 +203,7 @@ Visual.Type : **Image**
 
 Renders a raster image ( jpg, png etc.) into the visual's quad geometry.
 
-<img src="/dali-documentation/assets/images/visuals//house.png" width="400" height="400">
+<img src="{{site.baseurl}}/assets/images/visuals/house.png" width="400" height="400">
 #### Usage
 
 ~~~{.cpp}
@@ -237,7 +237,7 @@ VisualMap : **ImageVisual**
 Renders an n-patch or a 9-patch image. Uses non-quad geometry. Both geometry and texture are cached to reduce memory consumption
 if the same n-patch image is used elsewhere.
 
-![ ](/dali-documentation/assets/images/visuals/n-patch-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/n-patch-visual.png)
 
 VisualMap : **NPatchVisual**
 
@@ -271,7 +271,7 @@ Renders a svg image into the visual's quad geometry.
 
 <div style="width:300px">
 
-<img src="/dali-documentation/assets/images/visuals/svg-visual.svg" width="200" height="300">
+<img src="{{site.baseurl}}/assets/images/visuals/svg-visual.svg" width="200" height="300">
 
 </div>
 
@@ -281,7 +281,7 @@ VisualMap : **SVGVisual**
 
 Renders an animated image into the visual's quad geometry.
 
-![ ](/dali-documentation/assets/images/visuals/animated-image-visual.gif)
+![ ]({{site.baseurl}}/assets/images/visuals/animated-image-visual.gif)
 
 VisualMap : **AnimatedImageVisual**
 
@@ -298,7 +298,7 @@ VisualMap : **AnimatedImageVisual**
 
 Renders a color as an internal border to the visual's geometry.
 
-![ ](/dali-documentation/assets/images/visuals/border-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/border-visual.png)
 
 Visual.Type : **Border**
 
@@ -335,7 +335,7 @@ VisualMap : **BorderVisual**
 
 Renders a mesh using an .obj file, optionally with textures provided by an `mtl` file. Scaled to fit the control.
 
-![ ](/dali-documentation/assets/images/visuals/mesh-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/mesh-visual.png)
 
 Visual.Type : **Mesh**
 
@@ -386,7 +386,7 @@ Renders a simple 3D shape, such as a cube or sphere. Scaled to fit the control.
 
 The shapes are generated with clockwise winding and back-face culling on by default.
 
-![ ](/dali-documentation/assets/images/visuals//cube.png)
+![ ]({{site.baseurl}}/assets/images/visuals//cube.png)
 
 Visual.Type : **Primitive**
 
@@ -447,7 +447,7 @@ There are six shapes that can be chosen, some of which are simplified specialisa
 
 **sphere:**
 
-![ ](/dali-documentation/assets/images/visuals//sphere.png)
+![ ]({{site.baseurl}}/assets/images/visuals//sphere.png)
 
 **conics:**
 
@@ -469,14 +469,14 @@ Bevel percentage ranges from 0.0 to 1.0. It affects the ratio of the outer face 
 
 For spheres and conical frustrums, 'slices' determines how many divisions there are as you move around the object.
 
-![ ](/dali-documentation/assets/images/visuals//slices.png)
+![ ]({{site.baseurl}}/assets/images/visuals//slices.png)
 
 <a name="stacks"></a>
 #### Stacks
 
 For spheres, 'stacks' determines how many layers there are as you go down the object.
 
-![ ](/dali-documentation/assets/images/visuals/stacks.png)
+![ ]({{site.baseurl}}/assets/images/visuals/stacks.png)
 
 [Back to top](#top)
 
@@ -487,7 +487,7 @@ Renders a wireframe around a quad geometry.
 
 The wireframe visual is mainly used for debugging, replacing all other visuals when 'Visual Debug Rendering' is turned on.
 
-![ ](/dali-documentation/assets/images/visuals/wireframe-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/wireframe-visual.png)
 
 [Back to top](#top)
 
@@ -496,7 +496,7 @@ The wireframe visual is mainly used for debugging, replacing all other visuals w
 
 Renders text within a control.
 
-![ ](/dali-documentation/assets/images/visuals/HelloWorld.png)
+![ ]({{site.baseurl}}/assets/images/visuals/HelloWorld.png)
 
 **Visual.Type** : "Text"
 

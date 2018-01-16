@@ -107,7 +107,7 @@ appleImageView.SetProperty(Actor::Property::INHERIT_POSITION, false );
 Now the applie is still parented to the green rectange but positioned center to the stage (World Position (0,0) ).
 The parent green rectangle can be repositioned without affecting the position of the child ( apple ).
 
-![ ](/dali-documentation/assets/images/controls//position-inheritance.png)
+ ![]({{site.baseurl}}/assets/images/controls/position-inheritance.png)
 
 <a name="3"></a>
 ## Event Handling for Actors
