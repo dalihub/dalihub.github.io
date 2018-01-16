@@ -78,7 +78,7 @@ mView.Add( button );  // Adding button to stage via mView which is a staged cont
 <a name="ButtonWithTextVisual"></a>
 #### Setting Text to a PushButton using a Property Map (Full Control)
 
-<img src=" !{{site.baseurl}}/assets/images/controls/button-label.png" width="400" height="600">
+<img src="{{site.baseurl}}/assets/images/controls/button-label.png" width="400" height="600">
 
 ~~~{.cpp}
 Toolkit::PushButton button = Toolkit::PushButton::New();
@@ -144,7 +144,7 @@ button.SetProperty( Toolkit::Button::Property::LABEL, "Select" );
 #### Check box button set up
 Two checkboxes with default selected and unselected images.
 
-<img src=" {{site.baseurl}}/assets/images/" width="400" height="600">
+<img src=" {{site.baseurl}}/assets/images/controls/checkbox.png" width="400" height="600">
 
 ~~~{.cpp}
 Toolkit::CheckBoxButton checkboxButton1 = Toolkit::CheckBoxButton::New();

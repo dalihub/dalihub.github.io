@@ -66,7 +66,7 @@ The red dot indicates the anchor point.  The ParentOrigin in both is ParentOrigi
 
 | AnchorPoint::CENTER | AnchorPoint::TOP_LEFT |
 | --- | --- |
-| ![ ](/dali-documentation/assets/images/controls/actors-top-left-center.png) | ![ ](/dali-documentation/assets/images/controls/actors-top-left-top-left.png) |
+| ![]({{site.baseurl}}/assets/images/controls/actors-top-left-center.png) | ![]({{site.baseurl}}/assets/images/controls/actors-top-left-top-left.png) |
 | ParentOrigin::TOP_LEFT | ParentOrigin::TOP_LEFT |
 
 ### ParentOrigin
@@ -83,7 +83,7 @@ The red dot indicates the parent origin.  The AnchorPoint in both is AnchorPoint
 
 | ParentOrigin::CENTER | ParentOrigin::TOP_LEFT |
 | --- | --- |
-| ![ ](/dali-documentation/assets/images/controls/actors-center-top-left.png) | ![ ](/dali-documentation/assets/images/controls/actors-top-left-top-left.png) |
+| ![]({{site.baseurl}}/assets/images/controls/actors-center-top-left.png) | ![]({{site.baseurl}}/assets/images/controls/actors-top-left-top-left.png) |
 | AnchorPoint::TOP_LEFT | AnchorPoint::TOP_LEFT |
 
 ### Position
