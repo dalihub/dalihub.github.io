@@ -114,8 +114,8 @@ animation.Stop();
 
 The animations change the target property in a Linear way, to configure this an Alpha function can be supplied.
 
-Alpha functions are used in animations to specify the rate of change of the animation parameter over time.</br>
-This allows the animation to be, for example, accelerated, decelerated, repeated, or bounced.</br>
+Alpha functions are used in animations to specify the rate of change of the animation parameter over time.<br>
+This allows the animation to be, for example, accelerated, decelerated, repeated, or bounced.<br>
 The built-in supported functions can be viewed in the Dali::AlphaFunction::BuiltinFunction
 
 An example of setting an Ease In alpha function for all attached functions
@@ -148,8 +148,8 @@ animation.SetDefaultAlphaFunction( alphaFunction );
 <a name="2"></a>
 ## Animation Notifications
 
-Dali::Animation is a "fire and forget" framework, meaning that a handle to the animation does not need to be kept.</br>
-The animation.Play() can be called and the handle can go out of scope.</br>
+Dali::Animation is a "fire and forget" framework, meaning that a handle to the animation does not need to be kept.<br>
+The animation.Play() can be called and the handle can go out of scope.<br>
 
 To track the animation the FinishedSignal signal can be used, it will trigger when the animation ends.
 
@@ -164,9 +164,9 @@ animation.FinishedSignal().Connect( this, &HelloWorldExample::OnFinished );
 
 Key Frame Animation
 
-DALi provides support for animating between several different values, or key frames.</br>
-A key frame takes a progress value between 0.0f and 1.0f (0 and 100% respectively)</br>
-and portrays the value of the property when the animation has progressed that much.</br>
+DALi provides support for animating between several different values, or key frames.<br>
+A key frame takes a progress value between 0.0f and 1.0f (0 and 100% respectively)
+and portrays the value of the property when the animation has progressed that much.<br>
 You can create several key frames:
 
 ~~~{.cpp}
@@ -182,10 +182,10 @@ Next, you can add the key frames to your animation.
 animation.AnimateBetween( Property( actor1, Dali::Actor::Property::POSITION ), keyFrames );
 ~~~
 
-When you play the animation, DALi animates the position of actor1 between the specified key frames. </br>
-The actor1 animates from (10.0f, 10.0f, 10.0f) to (200.0f, 200.f, 200.0f) by 70% (0.7f) of the animation time,</br>
-and then spends the remaining time animating back to (100.0f, 100.0f, 100.0f).</br>
+When you play the animation, DALi animates the position of actor1 between the specified key frames. <br>
+The actor1 animates from (10.0f, 10.0f, 10.0f) to (200.0f, 200.f, 200.0f) by 70% (0.7f) of the animation time,
+and then spends the remaining time animating back to (100.0f, 100.0f, 100.0f).<br>
 
-The advantage of specifying a key frame at 0% is that regardless of where the actor1 is,</br>
-it starts from position (10.0f, 10.0f, 10.0f). If AnimateTo() is used,</br>
-the start position is the actor1's current position.
+The advantage of specifying a key frame at 0% is that regardless of where the actor1 is,
+it starts from position (10.0f, 10.0f, 10.0f). If AnimateTo() is used
+the start position is the actor1's current position.<br>
