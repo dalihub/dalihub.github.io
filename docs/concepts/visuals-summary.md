@@ -18,12 +18,12 @@ Visuals have common properties and specific ones. This enables the visual to be 
 Currently the Visual avaiable are:
 
 | Visual | Example | Visual | Example
-| --- | ---
-| Border | ![](/dali-documentation/assets/images/visuals/border-visual.png) | Color | ![ ](/dali-documentation/assets/images/visuals/color-visual.png)
-| Gradient | ![ ](/dali-documentation/assets/images/visuals/linear-gradient-visual.png) | Image |  ![ ](/dali-documentation/assets/images/visuals//house.png)
-| SVG | <img src="/dali-documentation/assets/images/visuals/svg-visual.svg" width="200" height="300"> | NPatch | ![ ](/dali-documentation/assets/images/visuals/n-patch-visual.png)
-| Animated Image | ![ ](/dali-documentation/assets/images/visuals/animated-image-visual.gif) | Mesh | ![](/dali-documentation/assets/images/visuals/mesh-visual.png)
-| Primitive | ![ ](/dali-documentation/assets/images/visuals/cube.png) | Text | ![ ](/dali-documentation/assets/images/visuals/HelloWorld.png)
+| --- | --- |
+| Border | ![]({{site.baseurl}}/assets/images/visuals/border-visual.png) | Color | ![ ]({{site.baseurl}}/assets/images/visuals/color-visual.png)
+| Gradient | ![ ]({{site.baseurl}}/assets/images/visuals/linear-gradient-visual.png) | Image |  ![ ]({{site.baseurl}}/assets/images/visuals//house.png)
+| SVG | <img src="{{site.baseurl}}/assets/images/visuals/svg-visual.svg" width="200" height="300"> | NPatch | ![ ]({{site.baseurl}}/assets/images/visuals/n-patch-visual.png)
+| Animated Image | ![ ]({{site.baseurl}}/assets/images/visuals/animated-image-visual.gif) | Mesh | ![]({{site.baseurl}}/assets/images/visuals/mesh-visual.png)
+| Primitive | ![ ]({{site.baseurl}}/assets/images/visuals/cube.png) | Text | ![ ]({{site.baseurl}}/assets/images/visuals/HelloWorld.png)
 
 WireFrame Visual - The wireframe visual is mainly used for debugging, replacing all other visuals
 when 'Visual Debug Rendering' is turned on.
