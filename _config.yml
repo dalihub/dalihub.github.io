@@ -17,7 +17,7 @@ title: DALi Developers Guide
 email: agnelo.vaz@samsung.com
 description: >- # this means to ignore newlines until "baseurl:"
   Dynamic Animation Library
-baseurl: "/dali-documentation" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
