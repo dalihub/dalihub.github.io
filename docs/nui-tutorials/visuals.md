@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 <a name="top"></a>
 # Visuals Tutorial
 
@@ -148,7 +152,7 @@ The last registered visual is always on top.
 
 Renders a color to the visual's quad geometry.
 
-![ ](../images/visuals/color-visual.png)
+![]({{site.baseurl}}/assets/images/visuals/color-visual.png)
 
 Visual.Type : **Color**
 
@@ -197,7 +201,7 @@ Both Linear and Radial gradients are supported.
 
 | Linear | Radial |
 |--------|--------|
-| ![ ](../images/visuals/linear-gradient-visual.png) | ![ ](../images/visuals/radial-gradient-visual.png) |
+| ![]({{site.baseurl}}/assets/images/visuals/linear-gradient-visual.png) |  ![]({{site.baseurl}}/assets/images/visuals/radial-gradient-visual.png) |
 
 Visual.Type : **Gradient**
 
@@ -297,7 +301,7 @@ Visual.Type : **Image**
 
 Renders a raster image ( jpg, png etc.) into the visual's quad geometry.
 
-![ ](../images/visuals/ImageView.png)
+<img src="{{site.baseurl}}/assets/images/visuals/house.png" width="400" height="400">
 
 #### Usage
 
@@ -333,7 +337,7 @@ VisualMap : **ImageVisual**
 Renders an n-patch or a 9-patch image. Uses non-quad geometry. Both geometry and texture are cached to reduce memory consumption
 if the same n-patch image is used elsewhere.
 
-![ ](../images/visuals/n-patch-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/n-patch-visual.png)
 
 VisualMap : **NPatchVisual**
 
@@ -361,7 +365,7 @@ Renders a svg image into the visual's quad geometry.
 
 <div style="width:300px">
 
-![ ](../images/visuals/svg-visual.svg)
+<img src="{{site.baseurl}}/assets/images/visuals/svg-visual.svg" width="200" height="300">
 
 </div>
 
@@ -372,7 +376,7 @@ VisualMap : **SVGVisual**
 Renders an animated image into the visual's quad geometry. Currently, only the GIF format is supported,
 however a new API is under development (_July 2017_) to enable multiple images to be displayed in turn.
 
-![ ](../images/visuals/animated-image-visual.gif)
+![ ]({{site.baseurl}}/assets/images/visuals/animated-image-visual.gif)
 
 VisualMap : **AnimatedImageVisual**
 
@@ -383,7 +387,7 @@ VisualMap : **AnimatedImageVisual**
 
 Renders a color as an internal border to the visual's geometry.
 
-![ ](../images/visuals/border-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/border-visual.png)
 
 Visual.Type : **Border**
 
@@ -433,7 +437,7 @@ VisualMap : **BorderVisual**
 
 Renders a mesh using an .obj file, optionally with textures provided by an `mtl` file. Scaled to fit the control.
 
-![ ](../images/visuals/mesh-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/mesh-visual.png)
 
 Visual.Type : **Mesh**
 
@@ -491,7 +495,7 @@ Renders a simple 3D shape, such as a cube or sphere. Scaled to fit the control.
 
 The shapes are generated with clockwise winding and back-face culling on by default.
 
-![ ](../images/visuals/cube.png)
+![ ]({{site.baseurl}}/assets/images/visuals//cube.png)
 
 Visual.Type : **Primitive**
 
@@ -561,16 +565,15 @@ There are six shapes that can be chosen, some of which are simplified specialisa
 |              | BevelledCube     | A cube/cuboid with all edges flattened to some degree.                            |
 
 #### Examples below:
-
 **sphere:**
 
-![ ](../images/visuals/sphere.png)
+![ ]({{site.baseurl}}/assets/images/visuals//sphere.png)
 
 **conics:**
 
 | Frustrum | Cone | Cylinder |
 |----------|------|----------|
-| ![ ](../images/visuals/conical-frustrum.png) | ![ ](../images/visuals/cone.png) | ![ ](../images/visuals/cylinder.png) |
+| ![ ]({{site.baseurl}}/assets/images/visuals/conical-frustrum.png) | ![ ]({{site.baseurl}}/assets/images/visuals/cone.png) | ![ ]({{site.baseurl}}/assets/images/visuals/cylinder.png) |
 
 <a name="bevel"></a>
 #### Bevel
@@ -579,21 +582,21 @@ Bevel percentage ranges from 0.0 to 1.0. It affects the ratio of the outer face 
 
 | 0.0 ( cube) | 0.3 | 0.7 | 1.0 (octahedron) |
 |-------------|-----|-----|------------------|
-| ![ ](../images/visuals/cube.png) | ![ ](../images/visuals/bevelled-cube-low.png) | ![ ](../images/visuals/bevelled-cube-high.png) | ![ ](../images/visuals/octahedron.png) |
+| ![ ]({{site.baseurl}}/assets/images/visuals/cube.png) | ![ ]({{site.baseurl}}/assets/images/visuals/bevelled-cube-low.png) | ![ ]({{site.baseurl}}/assets/images/visuals/bevelled-cube-high.png) | ![ ]({{site.baseurl}}/assets/images/visuals/octahedron.png) |
 
 <a name="slices"></a>
 #### Slices
 
 For spheres and conical frustrums, 'slices' determines how many divisions there are as you move around the object.
 
-![ ](../images/visuals/slices.png)
+![ ]({{site.baseurl}}/assets/images/visuals//slices.png)
 
 <a name="stacks"></a>
 #### Stacks
 
 For spheres, 'stacks' determines how many layers there are as you go down the object.
 
-![ ](../images/visuals/stacks.png)
+![ ]({{site.baseurl}}/assets/images/visuals/stacks.png)
 
 [Back to top](#top)
 
@@ -604,10 +607,7 @@ Renders a wireframe around a quad geometry.
 
 The wireframe visual is mainly used for debugging, replacing all other visuals when 'Visual Debug Rendering' is turned on.
 
-Set the DALI_DEBUG_RENDERING environment value to 1 to switch this feature on.
-e.g export DALI_DEBUG_RENDERING=1 before executing application. 0 to switch off.
-
-![ ](../images/visuals/wireframe-visual.png)
+![ ]({{site.baseurl}}/assets/images/visuals/wireframe-visual.png)
 
 [Back to top](#top)
 
@@ -616,10 +616,9 @@ e.g export DALI_DEBUG_RENDERING=1 before executing application. 0 to switch off.
 
 Renders text within a control.
 
-![ ](../images/visuals/HelloWorld.png)
+![ ]({{site.baseurl}}/assets/images/visuals/HelloWorld.png)
 
 **Visual.Type** : "Text"
-
 #### Usage
 
 ~~~{.cs}
@@ -710,14 +709,6 @@ The `AlignType` enum specifies the visual alignment:
 
 <a name="visualtransformexample"></a>
 #### Example of a Visual Transform
-
-A `ContactView` is a custom view which consists of four visuals (Image, Primitive, Text and Color), to display 'contact' information.
-All of these visuals can be configured via properties - ImageURL (Image), Shape (Primitive), Name (Text) and Color.
-Tap gesture is also enabled on the `ContactView`, which changes the color visual to some random color when the `ContactView` is tapped.
-
-This screenshot taken from a `ContactView`, shows the configuration and size of the visuals, set via 'transformation' during initial display (in the `OnRelayout` method).
-
-![ ](../images/visuals/ContactView.png)
 
 Here is the corresponding code sample, for the image visual:
 

@@ -453,7 +453,7 @@ There are six shapes that can be chosen, some of which are simplified specialisa
 
 | Frustrum | Cone | Cylinder |
 |----------|------|----------|
-| ![ ](/dali-documentation/assets/images/visuals/conical-frustrum.png) | ![ ](/dali-documentation/assets/images/visuals/cone.png) | ![ ](/dali-documentation/assets/images/visuals/cylinder.png) |
+| ![ ]({{site.baseurl}}/assets/images/visuals/conical-frustrum.png) | ![ ]({{site.baseurl}}/assets/images/visuals/cone.png) | ![ ]({{site.baseurl}}/assets/images/visuals/cylinder.png) |
 
 <a name="bevel"></a>
 #### Bevel
@@ -462,7 +462,7 @@ Bevel percentage ranges from 0.0 to 1.0. It affects the ratio of the outer face 
 
 | 0.0 ( cube) | 0.3 | 0.7 | 1.0 (octahedron) |
 |-------------|-----|-----|------------------|
-| ![ ](/dali-documentation/assets/images/visuals/cube.png) | ![ ](/dali-documentation/assets/images/visuals/bevelled-cube-low.png) | ![ ](/dali-documentation/assets/images/visuals/bevelled-cube-high.png) | ![ ](/dali-documentation/assets/images/visuals/octahedron.png) |
+| ![ ]({{site.baseurl}}/assets/images/visuals/cube.png) | ![ ]({{site.baseurl}}/assets/images/visuals/bevelled-cube-low.png) | ![ ]({{site.baseurl}}/assets/images/visuals/bevelled-cube-high.png) | ![ ]({{site.baseurl}}/assets/images/visuals/octahedron.png) |
 
 <a name="slices"></a>
 #### Slices

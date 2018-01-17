@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 <a name="0"></a>
 # Button Tutorial
 
@@ -123,10 +127,10 @@ The Button class provides the following properties which modify the fired events
    intervals while the button is touched.
 
 The interval times can be modified with the _InitialAutoRepeatingDelay_ and _NextAutoRepeatingDelay_ properties.
- 
+
 A togglable button can't be autorepeating. If the autorepeating property is set to true,
 then the togglable property is set to false but no event is fired.
- 
+
 2. When *togglable* is set to true, a _StateChanged_ event is fired, with the selected state.
 
 For a checkbox all 4 events are available, usually only the _StateChanged_ event is used to notify
@@ -149,12 +153,12 @@ Each state and sub-state should have the required visuals. A visual can be commo
 
 When pressed the unselected visuals are replaced by the selected visual. The text label is always
 placed on the top of all images.
- 
+
 When the button is disabled, background, button and selected visuals are replaced by
 their disabled visuals.
 
 This example illustrates the toggle button _StateVisuals_ property, which has visuals for each state:
- 
+
 ~~~{.cs}
 ToggleButton toggleButton = new ToggleButton();
 
@@ -174,7 +178,7 @@ toggleButton.WidthResizePolicy  = ResizePolicyType.FillToParent;
 toggleButton.HeightResizePolicy = ResizePolicyType.FillToParent;
 ~~~
 
-The ![styling tutorial](Styling-Controls.md) describes button styling with visuals.
+The ![styling tutorial](styling_controls_with_JSON) describes button styling with visuals.
 
 [Back to top](#0)
 
@@ -211,7 +215,7 @@ iconVisual.Add(Dali.Constants.Visual.Property.Type, new PropertyValue((int)Dali.
 
 iconTooltipContent.Add(new PropertyValue(iconVisual));
 
-// Text 
+// Text
 PropertyMap textVisual = new PropertyMap();
 textVisual.Add(Dali.Constants.Visual.Property.Type, new PropertyValue((int)Dali.Constants.Visual.Type.Text))
           .Add(Dali.Constants.TextVisualProperty.Text, new PropertyValue("Tooltip with Icon"));
@@ -238,13 +242,13 @@ The properties available in the *Button* base class are:
 
 | Property  | Type | Description
 | ------------ | ------------ | ------------ |
-| UnselectedVisual | Map | A map describing visual, changes dependent on state | 
+| UnselectedVisual | Map | A map describing visual, changes dependent on state |
 | SelectedVisual | Map | a map describing visual, changes dependent on state |
-| DisabledUnselectedVisual | Map | A map describing visual, changes dependent on state | 
+| DisabledUnselectedVisual | Map | A map describing visual, changes dependent on state |
 | DisabledSelectedVisual | Map | a map describing visual, changes dependent on state |
-| UnselectedBackgroundVisual | Map | A map describing visual, changes dependent on state | 
+| UnselectedBackgroundVisual | Map | A map describing visual, changes dependent on state |
 | SelectedBackgroundVisual | Map | a map describing visual, changes dependent on state |
-| DisabledUnselectedBackgroundVisual | Map | A map describing visual, changes dependent on state | 
+| DisabledUnselectedBackgroundVisual | Map | A map describing visual, changes dependent on state |
 | DisabledSelectedBackgroundVisual | Map | a map describing visual, changes dependent on state |
 | LabelRelativeAlignment | Align | Position of text label in relation to foreground/icon when both are present |
 | LabelPadding | Vector4 | The padding area around the label (if present) |
@@ -265,9 +269,8 @@ The properties available for the *ToggleButton* class are:
 
 | Property  | Type | Description
 | ------------ | ------------ | ------------ |
-| StateVisuals | Array | Array of property-maps, or a property array of strings. The property map expects a description of visual, and string represents an image url. | 
+| StateVisuals | Array | Array of property-maps, or a property array of strings. The property map expects a description of visual, and string represents an image url. |
 | Tooltips | Array | Array of toggle state tooltip strings. Each tooltip string should match a toggle state |
 | CurrentStateIndex | int | current state |
 
 [Back to top](#0)
-

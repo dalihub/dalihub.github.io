@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 # NUI overview
 
 This overview provides an introduction to NUI and the DALi engine.
@@ -7,7 +11,7 @@ This overview provides an introduction to NUI and the DALi engine.
 
 NUI is a C# toolkit on top of the DALi graphics library, which is written in C++.
 
-## NUI 
+## NUI
 
 NUI is a cross platform library for creating applications with rich GUI. These applications are run on a
 range of Tizen devices such as TV's and wearables. NUI is built on a multi-threaded architecture enabling
@@ -41,8 +45,3 @@ View:        Primary object for interaction. Views are effectively nodes that re
              An NUI application uses a hierarchy of view objects to position visible content.
 
 Layer:       Layers provide a mechanism for overlaying groups of views on top of each other.
-
-### Last updated - June 2017
-
-
-

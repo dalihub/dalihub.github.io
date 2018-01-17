@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 <a name="top"></a>
 # NUI Hello World Tutorial
 
@@ -64,7 +68,7 @@ The Main method consist of 2 steps:
 
 ### The Creation method - OnCreate()
 
-The _hello world_ `OnCreate` method, overrides the NUIApplication `OnCreate` function: 
+The _hello world_ `OnCreate` method, overrides the NUIApplication `OnCreate` function:
 
    ~~~{.cs}
    base.OnCreate();
@@ -176,7 +180,7 @@ namespace HelloTest
         {
             base.OnCreate();
             Initialize();
-        } 
+        }
 
         private void Initialize()
         {
@@ -190,7 +194,7 @@ namespace HelloTest
             // Connect the signal callback for a touch signal
             Window window = Window.Instance;
             window.TouchEvent += WindowTouched;
-        
+
             window.Add(_text);
         }
 
@@ -231,9 +235,8 @@ window.TouchEvent += (object src, Window.TouchEventArgs args) =>
 };
 ~~~
 
-### More information on the Text label 
+### More information on the Text label
 
 The [Text Label tutorial](text-label.md) describes the key properties of the text label in detail.
 
 [Back to top](#top)
-

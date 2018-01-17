@@ -19,7 +19,9 @@ DALi is developed with user input responsiveness, smooth updates with good FPS a
 
 A Toolkit is provided to make using DALi even easier along with a framework that facilitates the creating of your own controls.<br>
 
-Dali is Open Source, constantly maintained and extended.<br>
+DALi is Open Source, constantly maintained and extended.<br>
+
+DALi provides 2 apis, the native C++ and NUI which is based on C#.
 
 ## Getting Started
 
@@ -33,7 +35,7 @@ The main DALi concepts are outlined below and followed by tutorials to show DALi
 [Controls]( ./docs/concepts/control )
 
 
-## Tutorials
+## Tutorials (native)
 
 [Actors]( ./docs/native-tutorials/actor ) <br>
 [Animation]( ./docs/native-tutorials/animation ) <br>
@@ -42,12 +44,14 @@ The main DALi concepts are outlined below and followed by tutorials to show DALi
 [Resources]( ./docs/native-tutorials/resources ) <br>
 [Visuals]( ./docs/native-tutorials/visuals ) <br>
 
-## What's new
+## NUI (C#)
 
-```markdown
-- Resource Loading Policies
-- Animated GIF
+[OverView]( ./docs/nui-tutorials/nui-overview ) <br>
 
-```
+## NUI Tutorials
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Animation]( ./docs/nui-tutorials/animation ) <br>
+[Button]( ./docs/nui-tutorials/button ) <br>
+[ImageView]( ./docs/nui-tutorials/image-view ) <br>
+[TextLabel]( ./docs/nui-tutorials/text-label ) <br>
+[Visuals]( ./docs/nui-tutorials/visuals ) <br>

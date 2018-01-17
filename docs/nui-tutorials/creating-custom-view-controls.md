@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 <a name="top"></a>
 # Creating Custom View controls
 

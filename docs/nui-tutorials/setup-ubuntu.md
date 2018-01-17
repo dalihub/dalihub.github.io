@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 <a name="top"></a>
 # Setting up the NUI development environment on Ubuntu
 
@@ -76,7 +80,7 @@ will give you a basic understanding of projects in VSC.
 ### Get NUI source code from Git
 
 * Create a 'NUI root folder' for the source code, _I am using ~/DALiNUI as an example_
-~~~{.sh}	
+~~~{.sh}
     $ mkdir ~/DALiNUI
     $ cd ~/DALiNUI
 ~~~
@@ -191,7 +195,7 @@ It does not build any of the example code within the sample folders.
 <a name="buildnui"></a>
 ### Build your own application
 
-* Create tutorial file 
+* Create tutorial file
     1. Copy code in _"full example"_ section of the [NUI Hello World tutorial](hello-world.md) to a new file, `hello-world.cs`
     2. Create a _tutorials_ folder
     2. Copy `hello-world.cs` to the tutorials folder:
@@ -208,7 +212,7 @@ It does not build any of the example code within the sample folders.
     3. Select the `tutorials` folder in the File Dialog
     4. Open the command prompt CTRL+` (backtick)
     5. In the Integrated Terminal, type the following:
-    
+
 ~~~{.sh}
     $ cd ~/DALiNUI
     $ . setenv
@@ -224,7 +228,7 @@ The 'dotnet new console' creates a Project, with a Project file `tutorials.cspro
 
 + Modify project file
     1. Edit `tutorials.csproj`, adding the following lines inside the 'Project' element:
-    
+
 ~~~{.sh}
     <ItemGroup>
       <ProjectReference Include="..\nui\Tizen.NUI.Code\Tizen.NUI.csproj" />
@@ -233,14 +237,14 @@ The 'dotnet new console' creates a Project, with a Project file `tutorials.cspro
 ~~~
 
     2. Add the following line inside the 'PropertyGroup' element:
-    
+
 ~~~{.sh}
     <DefineConstants>DOT_NET_CORE</DefineConstants>
 ~~~
 
 + Build assets
     1. Restore the dependencies and tools of a project.
-    
+
 ~~~{.sh}
     $ dotnet restore
 ~~~
@@ -306,7 +310,7 @@ These settings will be picked up if the application is run via F5.
 
 <img src="./Images/setup-ubuntu/SystemProxySettings.png">
 
-* Configure VSC firewall proxy settings (_for install of library packages such as mono runtime and .NET Core Debugger_) 
+* Configure VSC firewall proxy settings (_for install of library packages such as mono runtime and .NET Core Debugger_)
     1. Select File > Preferences > Settings > Edit
     2. Select HTTP in middle pane
     3. (a) Select Edit icon > Copy to settings. "http.proxy" should be copied to right hand pane, then (b) add the proxy setting:
@@ -333,4 +337,3 @@ These export variables could also be set in your `.bashrc` file.
 
 
 [Back to top](#top)
-

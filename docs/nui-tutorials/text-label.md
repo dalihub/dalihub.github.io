@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 <a name="0"></a>
 # Text Label Tutorial
 
@@ -34,9 +38,9 @@ The label must be added to the Window, or to a View which is on the Window.
 
 The position of the label on-screen is dependent on the *parentOrigin* property.
 
-This image shows a text label with ParentOrigin.TopLeft:
+This image shows a text label
 
-![ ](./Images/text-controls/TextLabelTopLeft.png)
+![ ]({{site.baseurl}}/assets/images/controls/text/text-label.png)
 
 To display a TextLabel the _Text_ property must be set using a UTF-8 string.
 Note: *CR+LF* new line characters are replaced by *LF*.
@@ -165,11 +169,11 @@ label.HorizontalAlignment = HorizontalAlignmentType.Right;
 |  |  |
 |--|--|
 | Here is the "BEGIN" alignment shown for left-to-right (Latin)   |  right-to-left (Arabic) scripts |
-| ![ ](./Images/text-controls/LatinBegin.png) | ![ ](./Images/text-controls/ArabicBegin.png) |
+| ![ ]({{site.baseurl}}/assets/images/controls/text/latin-begin.png) | ![ ]({{site.baseurl}}/assets/images/controls/text/arabic-begin.png) |
 | Here is the "CENTER" alignment shown for left-to-right (Latin)  | right-to-left (Arabic) scripts:|
-| ![ ](./Images/text-controls/LatinCenter.png) | ![ ](./Images/text-controls/ArabicCenter.png) |
+| ![ ]({{site.baseurl}}/assets/images/controls/text/latin-center.png) | ![ ]({{site.baseurl}}/assets/images/controls/text/arabic-center.png) |
 | Here is the "END" alignment shown for left-to-right (Latin)  | right-to-left (Arabic) scripts:|
-| ![ ](./Images/text-controls/LatinEnd.png) | ![ ](./Images/text-controls/ArabicEnd.png) |
+| ![ ]({{site.baseurl}}/assets/images/controls/text/latin-end.png) | ![ ]({{site.baseurl}}/assets/images/controls/text/arabic-end.png) |
 
 
 The examples above assume that the label size is greater than the minimum required.
@@ -188,7 +192,7 @@ label.Text = "Red Text";
 label.TextColor = Color.Red;
 ~~~
 
- ![ ](./Images/text-controls/RedText.png)
+![ ]({{site.baseurl}}/assets/images/controls/text/red-text.png)
 
 #### Drop Shadow
 
@@ -219,13 +223,11 @@ shadow.Add("color", new PropertyValue("red"));
 label4.Shadow = shadow;
 ~~~
 
-![ ](./Images/text-controls/PlainText.png)
+![ ]({{site.baseurl}}/assets/images/controls/text/text-with-shadow.png)
 
-![ ](./Images/text-controls/TextWithShadow.png)
+![ ]({{site.baseurl}}/assets/images/controls/text/text-with-bigger-shadow.png)
 
-![ ](./Images/text-controls/TextWithBiggerShadow.png)
-
-![ ](./Images/text-controls/TextWithColorShadow.png)
+![ ]({{site.baseurl}}/assets/images/controls/text/text-with-color-shadow.png)
 
 
 #### Underline
@@ -253,9 +255,9 @@ textStyle.Add("color", new PropertyValue(Color.Green));
 label2.Underline = textStyle;
 ~~~
 
-![ ](./Images/text-controls/TextWithUnderline.png)
+![ ]({{site.baseurl}}/assets/images/controls/text/text-with-underline.png)
 
-![ ](./Images/text-controls/TextWithColorUnderline.png)
+![ ]({{site.baseurl}}/assets/images/controls/text/text-with-color-underline.png)
 
 By default the underline height will be taken from the font metrics, however this can be overridden:
 
@@ -273,7 +275,7 @@ The underline images above have a 1 pixel height.
 <a name="6"></a>
 ### Auto Scrolling
 
-![ ](./Images/text-controls/AutoScroll.gif)
+![ ]({{site.baseurl}}/assets/images/controls/text/auto-scroll.gif)
 
 Auto TextLabel scrolling enables the text to scroll within the control, it can be used if text exceeds the
 boundary of the control, hence showing the full content. Autoscrolling will also scroll text that is smaller than

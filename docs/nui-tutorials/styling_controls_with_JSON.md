@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 <a name="top"></a>
 # Tutorial on styling a control with JSON
 
@@ -208,7 +212,7 @@ Initially only CROSSFADE will be available, but in time further effects could be
 
 This transition can be placed in the state section like NORMAL. It will cross-fade between unselected and selected visuals. <br />
 
-Example using CROSSFADE effect 
+Example using CROSSFADE effect
 ```json
 "transitions":
 [
@@ -333,7 +337,7 @@ Example button stylesheet  ( Link to most update version )
           "transitions":
           [
             {
-              "from":"UNSELECTED", 
+              "from":"UNSELECTED",
               "to":"SELECTED",
               "visualName":"*",
               "effect":"CROSSFADE",
@@ -413,7 +417,7 @@ Example button stylesheet  ( Link to most update version )
       "transitions":
       [
         {
-          "from":"NORMAL", 
+          "from":"NORMAL",
           "to":"DISABLED",
           "visualName":"*",
           "effect":"CROSSFADE",

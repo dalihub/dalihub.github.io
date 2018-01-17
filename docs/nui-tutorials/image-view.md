@@ -1,3 +1,7 @@
+---
+layout: default
+title: Nui Tutorial
+---
 # Image View Tutorial
 
 The tutorial describes the NUI _ImageView_ control in detail.
@@ -8,7 +12,7 @@ The ImageView is a control which displays an image.
 
 ### Basic creation and usage
 
-An instance of an ImageView is created with a file path: 
+An instance of an ImageView is created with a file path:
 
 ~~~{.cs}
 imageView = new ImageView("./images/gallery-3.jpg");
@@ -24,12 +28,12 @@ imageView.ResourceUrl = "./images/gallery-3.jpg";
 To subsequently change an image use the _SetImage_ method:
 
 ~~~{.cs}
-imageView.SetImage("./images/gallery-4.jpg");
+imageView.SetImage("./images/house.png");
 ~~~
 
 This figure is displayed via an ImageView:
 
-![ ](./Images/image-view/ImageView.png) 
+<img src="{{site.baseurl}}/assets/images/controls/image-view.png" width="400" height="600">
 
 ### Image View Properties
 
@@ -59,6 +63,5 @@ e.g on a 200 x 200 pixel image [0.25, 0.5, 0.5, 0.5] would represent a sub area
 of that image with the following co-ordinates:
 Top left     : 50,100
 Top right    : 150,100
-Bottom left  : 50,200 
+Bottom left  : 50,200
 Bottom right : 150,200
-

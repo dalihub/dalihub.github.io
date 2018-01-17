@@ -40,7 +40,7 @@ There are 3 animation functions that determine what should be animated.
 |--- | --- |
 | AnimateTo | Animates a given property to the given value |
 | AnimateBy | Animates a given property by a given amount |
-| AnimateBetweeen | Animates a given property from a given value to a given value |
+| AnimateBetween | Animates a given property from a given value to a given value |
 
 Below code animates the actor1 position to 10.0f, 50.0f, 0.0f
 
