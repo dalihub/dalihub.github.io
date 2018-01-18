@@ -2,6 +2,8 @@
 layout: default
 title: What is a control
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 # Controls
 
 Controls are UI components that can be used in your application.

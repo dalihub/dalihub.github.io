@@ -2,6 +2,8 @@
 layout: default
 title: Nui Tutorial
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 # NUI overview
 
 This overview provides an introduction to NUI and the DALi engine.

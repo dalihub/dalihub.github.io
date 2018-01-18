@@ -6,7 +6,6 @@ date:   2018-01-10 15:17:09 +0000
 
 ## Welcome to DALi
 
-
 This guide will take you through what you need to know to produce efficient, dynamic and visually rich applications in DALi easily.<br>
 
 ## What is DALi

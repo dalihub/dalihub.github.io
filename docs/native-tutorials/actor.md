@@ -2,6 +2,7 @@
 layout: default
 title: Actor Tutorial
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
 
 <a name="0"></a>
 # Actor Tutorial

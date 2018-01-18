@@ -2,6 +2,8 @@
 layout: default
 title: Resources Tutorial
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 # Resources
 
 This tutorial describes the use of Resources in Dali, currently Image resources.

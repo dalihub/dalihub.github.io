@@ -2,6 +2,8 @@
 layout: default
 title: What is a Visual
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 # Visuals
 
 Visuals are the main building block for controls.

@@ -2,6 +2,8 @@
 layout: default
 title: Animation Tutorial
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 <a name="0"></a>
 # Animation Tutorial
 

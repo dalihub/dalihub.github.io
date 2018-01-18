@@ -2,6 +2,8 @@
 layout: default
 title: Nui Tutorial
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 # Image View Tutorial
 
 The tutorial describes the NUI _ImageView_ control in detail.

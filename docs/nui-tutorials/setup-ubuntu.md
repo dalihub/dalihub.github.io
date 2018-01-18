@@ -2,6 +2,8 @@
 layout: default
 title: Nui Tutorial
 ---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 <a name="top"></a>
 # Setting up the NUI development environment on Ubuntu
 
