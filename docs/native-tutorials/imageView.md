@@ -10,9 +10,11 @@ The tutorial describes the NUI _ImageView_ control in detail.
 
 ## Overview
 
-The ImageView is a control which displays a visual.
+The ImageView control is used to display an image, or other types of visual content.
+It provides the loading and decoding of image data, and properties to control the visual appearance of images.
+It does not provide any user interaction.
 
-It's commmon use is for showing an ImageVisual so this tutorial will focus on that.
+This tutorial will focus on the common usage with ImageVisual, although ImageView can use any type of visual.
 
 ### Basic creation and usage
 
@@ -81,3 +83,7 @@ Top left     : 50,100
 Top right    : 150,100
 Bottom left  : 50,200
 Bottom right : 150,200
+
+## Usage with Texture APIs
+
+ImageView can also be used display Dali::Texture. For more details see [ this section ]({{site.baseurl}}/concepts/rendering/using-textures-with-imageview) of DALi Rendering API documentation.
