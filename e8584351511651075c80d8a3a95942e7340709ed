@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "315f5c84_fffd3953",
+        "filename": "docs/native-tutorials/imageView.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2018-02-13T14:20:14Z",
+      "side": 1,
+      "message": "Reads well",
+      "revId": "e8584351511651075c80d8a3a95942e7340709ed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "16826de1_53ae1f9b",
+        "filename": "docs/native-tutorials/imageView.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2018-02-13T14:20:14Z",
+      "side": 1,
+      "message": "assuming this is still work in progress.",
+      "range": {
+        "startLine": 89,
+        "startChar": 124,
+        "endLine": 89,
+        "endChar": 153
+      },
+      "revId": "e8584351511651075c80d8a3a95942e7340709ed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
