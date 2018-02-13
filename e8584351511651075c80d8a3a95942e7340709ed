@@ -39,6 +39,30 @@
       "revId": "e8584351511651075c80d8a3a95942e7340709ed",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7637c57_588296e4",
+        "filename": "docs/native-tutorials/imageView.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2018-02-13T14:22:15Z",
+      "side": 1,
+      "message": "Yeah I\u0027m planning to tag this on the end, after we have a \"rendering\" section",
+      "parentUuid": "16826de1_53ae1f9b",
+      "range": {
+        "startLine": 89,
+        "startChar": 124,
+        "endLine": 89,
+        "endChar": 153
+      },
+      "revId": "e8584351511651075c80d8a3a95942e7340709ed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
