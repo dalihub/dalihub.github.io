@@ -87,6 +87,30 @@
       "revId": "e8584351511651075c80d8a3a95942e7340709ed",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d610241c_0903def1",
+        "filename": "docs/native-tutorials/imageView.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1011397
+      },
+      "writtenOn": "2018-02-21T09:54:56Z",
+      "side": 1,
+      "message": "That is my intention, yes. TBH I\u0027m concerned about the overall structure of this documentation, since we don\u0027t have anything to explain the difference between dali-core/toolkit.\n\nThe rendering API is quite low-level, and we only seem to have documentation about UI controls (not Actors). In other words there isn\u0027t an obvious place to put rendering documentation",
+      "parentUuid": "cc1382cd_6e844b91",
+      "range": {
+        "startLine": 89,
+        "startChar": 124,
+        "endLine": 89,
+        "endChar": 153
+      },
+      "revId": "e8584351511651075c80d8a3a95942e7340709ed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
