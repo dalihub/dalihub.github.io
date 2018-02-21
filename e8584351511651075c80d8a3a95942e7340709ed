@@ -63,6 +63,30 @@
       "revId": "e8584351511651075c80d8a3a95942e7340709ed",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc1382cd_6e844b91",
+        "filename": "docs/native-tutorials/imageView.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1011527
+      },
+      "writtenOn": "2018-02-21T09:41:08Z",
+      "side": 1,
+      "message": "Hey, Are you working on a rendering section? Hence will have a few more md files to push at once?",
+      "parentUuid": "b7637c57_588296e4",
+      "range": {
+        "startLine": 89,
+        "startChar": 124,
+        "endLine": 89,
+        "endChar": 153
+      },
+      "revId": "e8584351511651075c80d8a3a95942e7340709ed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
