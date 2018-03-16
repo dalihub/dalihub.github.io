@@ -47,6 +47,10 @@ The main DALi concepts are outlined below and followed by tutorials to show DALi
 
 [OverView]( ./docs/nui-tutorials/nui-overview ) <br>
 
+## Building NUI
+
+[Build instructions](./docs/nui-tutorials/build-instructions.md) <br>
+
 ## NUI Tutorials
 
 [Animation]( ./docs/nui-tutorials/animation ) <br>
