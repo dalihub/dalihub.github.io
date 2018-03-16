@@ -9,14 +9,13 @@ title: Nui Build Instructions
 
 ## The tutorial shows how to build NUI for Ubuntu
 
-The required Dali repositories are hosted in here in DaliHub github and the NUI repository is hosted in the Samsung github.  
-
+The required Dali repositories are hosted here in DaliHub github and the NUI repository is hosted in the Samsung github.  
 ### Step-by-step guide
 
 #### Setup
 
 Dotnet will need to be setup. <br>
-dali-csharp will need a Tizen.org ID for downloading.
+dali-csharpi-binder will need a Tizen.org ID for downloading.
 Other repos are in dalihub hosted in github.
 
     Install dotnet 2.0, follow the instructions below:
@@ -45,27 +44,27 @@ The Dali repositories need to be built into the dali-env (environment), then the
 
     Follow README instructions in dali-core repository to create dali-env folder.
 
-    Source your dali-env environment script, see README in dali-core
+    "Source" your dali-env environment script, see README in dali-core
 
     Build dali repos as indicated in the README for each repository.
 
     Build dali-csharp-binder:
-        in the root folder, run
+        cd <<dali-csharp-binder>>
         autoreconf --install
         ./configure --prefix=$DESKTOP_PREFIX
         make -j8 install
 
     Build tizenfx-stub:
-        cd tizenfx-stub
+        cd <<tizenfx-stub>>
         cmake -DCMAKE_INSTALL_PREFIX=$DESKTOP_PREFIX
         make install
 
-    Build TizenFX
-        cd tizenfx
+    Build TizenFX ( See README for latest instructions )
+        cd <<TizenFX directory>>
         ./build.sh full
 
     Build your demo app
         dotnet build
-        dotnet runs
+        dotnet run
 
 [Back to top](#top)
