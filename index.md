@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "dali first page"
+title:  "Home"
 date:   2018-01-10 15:17:09 +0000
 ---
 
