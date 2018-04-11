@@ -28,6 +28,11 @@ DALi repositories are avaiable in GitHub with instructions to install and build.
 
 The main DALi concepts are outlined below and followed by tutorials to show DALi in action.<br>
 
+## Coding Guidelines
+
+[Coding Convention]( ./docs/coding-guidelines/coding-convention ) <br>
+[Coding Style]( ./docs/coding-guidelines/coding-style ) <br>
+
 ## Learn about the DALi main concepts
 
 [Visuals]( ./docs/concepts/visuals-summary ) <br>
