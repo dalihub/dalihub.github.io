@@ -90,17 +90,15 @@ blockquote {
 code {
   font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   font-size:13px;
-  color:#efefef;
-  text-shadow: 0px 1px 0px #000;
+  color:#666666;
   margin: 0 4px;
   padding: 2px 6px;
-  background: #333;
   border-radius: 2px;
 }
 
 pre {
   padding:8px 15px;
-  background: #333333;
+  background: #f4f4f4;
   border-radius: 3px;
   border:1px solid #c7c7c7;
   overflow: auto;
@@ -115,6 +113,21 @@ pre {
 table {
   width:100%;
   border-collapse:collapse;
+}
+
+// Brackets, colon etc. color
+.highlight .p, .highlight .o {
+  color: #888;
+}
+
+// Class, Function, variable color
+.highlight .nc, .highlight .n {
+  color: #1c57ff;
+}
+
+// Comment color
+.highlight .c1 {
+  color: #10700e;
 }
 
 th {
