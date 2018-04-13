@@ -84,7 +84,7 @@ You need Tizen Studio on your machine to run TTrace. You can download it from [h
 
 To run and view the tracing output, follow the steps below:
 
-* After installing the trace-enabled libraries on target, modify the profile startup script, for mobile this is **/etc/profile.d/efl_mobile.sh**, and add the lines to export the tracing envrionemnt variables required:
+* After installing the trace-enabled libraries on target, modify the profile startup script, for mobile this is **/etc/profile.d/efl_mobile.sh**, and add the lines to export the tracing environment variables required:
 ```
 export UPDATE_MANAGER_TRACE=1
 ```
