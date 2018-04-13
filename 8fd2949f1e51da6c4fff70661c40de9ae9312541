@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "42dcc1c9_0a8c19ca",
+        "filename": "docs/tools/tracing.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1007394
+      },
+      "writtenOn": "2018-04-13T16:48:49Z",
+      "side": 1,
+      "message": "spelling",
+      "range": {
+        "startLine": 87,
+        "startChar": 186,
+        "endLine": 87,
+        "endChar": 198
+      },
+      "revId": "8fd2949f1e51da6c4fff70661c40de9ae9312541",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
