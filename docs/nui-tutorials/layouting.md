@@ -1,3 +1,9 @@
+---
+layout: default
+title: Nui Tutorial
+---
+[ Home Page ]({{site.baseurl}}/index) <br>
+
 ## Layouting  ( in developement so subject to change )
 
 ### Using provided Layouts
