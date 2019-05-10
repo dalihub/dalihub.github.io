@@ -56,6 +56,7 @@ The main DALi concepts are outlined below and followed by tutorials to show DALi
 [Animation]( ./docs/nui-tutorials/animation ) <br>
 [Button]( ./docs/nui-tutorials/button ) <br>
 [ImageView]( ./docs/nui-tutorials/image-view ) <br>
+[Layouting]( ./docs/nui-tutorials/layouting-overview ) <br>
 [TextLabel]( ./docs/nui-tutorials/text-label ) <br>
 [Visuals]( ./docs/nui-tutorials/visuals ) <br>
 
