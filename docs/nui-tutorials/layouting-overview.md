@@ -229,6 +229,23 @@ LinearAlignment defines where the children should start being positioned from, u
 | LinearOrientation      | LinearLayout.Orientation   | Gets/Sets Orientation of the linear layout, vertical or horizontal |
 | CellPadding            | Size2D      | Gets/Sets Spacing between the cells, horizontal space and vertical space |
 
+
+#### AlignmentType
+
+By default items are aligned at the Top, Begin.
+Choose from the below alignment options
+
+| Alignment  | Info |
+| ---------- | ----------- |
+| Begin ||
+| End ||
+| CenterHorizontal | Vetical will be set to top |
+| Top ||
+| Bottom ||
+| CenterVertical | Horizontal will be set to start |
+| Center | Both vertical and horizontal are centered |
+
+
 [Back to top](#top)
 
 <a name="gridLayout"></a>
@@ -244,7 +261,21 @@ The number of columns can be specified and the rows will automatically increased
 <a name="flexlayout"><br>
 ### Flex Layout
 
-Layout under construction.
+A layout which provides features like wrapping so if items no long fit on an axis they can automatically be positioned on another row or column.
+
+Justification applies to the flex Direction axis whilst Alignment is the (other) cross axis.  Changing the Direction will apply the Justification to the new direction.
+
+Natural size of items are used which can be different for each item.
+
+Setting the size of an item has no effect.
+
+| Property               | Type            | Description |
+| -----------------------| --------------- | ------------ |
+| Direction              | FlexDirection   | The orientation the flex items are laid out in (Column/Row) |
+| Justification          | FlexJustification | Alignment of items along the flex axis when free space available |
+| Alignment              | AlignmentType     | Alignment of items along the cross axis when free space available |
+| WrapType               | FlexWrapType    | Enable wrapping of items |
+
 [Back to top](#top)
 
 <a name="customLayouts"><br>
