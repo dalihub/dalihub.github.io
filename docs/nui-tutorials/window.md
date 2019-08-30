@@ -50,7 +50,7 @@ By default, the main window is created in full screen size, except that if runni
 DALI_WINDOW_WIDTH=1920 DALI_WINDOW_HEIGHT=1080 my-app
 ~~~
 
-In NUI, it also allows to specify the initial size and position of the main window by passing them to the constructor of the application:
+It also allows to specify the initial size and position of the main window by passing them to the constructor of the application:
 
 ~~~{.cs}
 public MyApplication(Size2D windowSize, Position2D windowPosition) : base(windowSize, windowPosition)
@@ -122,9 +122,7 @@ Window newWindow = new Window(new Rectangle(0, 0, 1920, 1080))
 <a name="deleting"></a>
 ## Deleting window
 
-The main window cannot be deleted, otherwise it will cause unexpected behaviour.
-
-Any additional window can be deleted, which will also delete all the views inside the window:
+A window can be deleted, which will also delete all the views inside the window. However, the main window cannot be deleted.
 
 ~~~{.cs}
 newWindow.Destroy();
@@ -145,6 +143,8 @@ Size2D windowSize = window.WindowSize;
 windowSize.Width += 100;
 window.WindowSize = windowSize;
 ~~~
+
+When the window size is changed, a [resize event](#resizing) will be emitted.
 
 [Back to top](#top)
 
@@ -278,9 +278,9 @@ Keyboard focus can be handled between multiple windows.
 
 Here is a simple example to show how this can be done.
 
-<img src="{{site.baseurl}}/assets/images/window/FocusManagement.png">
+Suppose there are two windows and each window has two buttons (as shown in the diagram below). We want to move focus between the buttons in these two windows using "Left" and "Right" navigation keys.
 
-Suppose there are two windows and each window has two buttons (as shown in the above diagram). We want to move focus between the buttons in these two windows using "Left" and "Right" navigation keys.
+<img src="{{site.baseurl}}/assets/images/window/FocusManagement.png">
 
 Firstly, all the buttons should be set as focusable.
 
