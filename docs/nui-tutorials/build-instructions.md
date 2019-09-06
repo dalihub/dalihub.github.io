@@ -15,7 +15,7 @@ It also contains a fork of the TizenFX repository (originally hosted in the Sams
 
 ### Setup
 
-* Install dotnet 2.0 using the instructions <a href="https://www.microsoft.com/net/core#linuxubuntu" target="_blank">here</a>
+* Install dotnet 2.0 using the instructions <a href="https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install?initial-os=linux" target="_blank">here</a>
 * Clone the following repos into your main repository folder:
 ```
 git@github.com:dalihub/dali-core
